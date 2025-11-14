@@ -1,0 +1,7566 @@
+{
+  "3": {
+    "RouteNumber": "3",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "VACOAS",
+    "NumberOfStages": 14,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "VACOAS"
+      }
+    ]
+  },
+  "4": {
+    "RouteNumber": "4",
+    "StartStage": "QUATRE BORNES",
+    "EndStage": "QUATRE BORNES",
+    "NumberOfStages": 8,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "5": {
+    "RouteNumber": "5",
+    "StartStage": "BAIE DU CAP",
+    "EndStage": "QUATRE BORNES",
+    "NumberOfStages": 31,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "BAIE DU CAP"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "MACONDE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "LA PRAIRIE SIGNPOST DANGEROUS BATH"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "LA PRAIRIE BEACH"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LE MORNE END OF VILLAGE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "LE MORNE FOOTBALL GROUND"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "LE MORNE HOTEL JUNCTION"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "COTEAU RAFFIN"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA GAULETTE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CASE NOYALE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PETITE RIVIERE NOIRE END"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PETIRE RIVIERE NOIRE SALT PAN"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MONTEE BOIS PUANT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "GRANDE RIVIERE NOIR 3 BRAS STORE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "GRAND RIVIERE NOIR SALT PAN"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA PRENEUSE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "TAMARIN SALT PANS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "TAMARIN BEGINING"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "CLARENCE END"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "CLARENCE BEGINING"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "BAMBOUS GAMMA"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "BAMBOUS NHDC"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "MONTEE BOL"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "BEAU SONGES"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "PALMA JUNCTION"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "PALMA L'ECOLE"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "QUATRE BORNES"
+      }
+    ]
+  },
+  "6": {
+    "RouteNumber": "6",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "RIVIERE DES GALLETS",
+    "NumberOfStages": 25,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "RIVIERE DES GALLETS"
+      }
+    ]
+  },
+  "7": {
+    "RouteNumber": "7",
+    "StartStage": "JAWAHARLALL NEHRU HOSPITAL",
+    "EndStage": "RIVIERE DES GALLETS",
+    "NumberOfStages": 25,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "JAWAHARLALL NEHRU HOSPITAL"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "ROSEBELLE GEBERT"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "NEW GROVE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GROS BILLOT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MARE TABAC"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "JOLIE BOIS"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "RIVIERE DU POSTE KALIMAYE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "TOOKAY"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RICHE BOIS"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CAMP DIABLE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CHATEAU BENARES"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "BATIMARAIS"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "RIVIERE DES GALLETS"
+      }
+    ]
+  },
+  "8": {
+    "RouteNumber": "8",
+    "StartStage": "SOUILLAC",
+    "EndStage": "BAIE DU CAP",
+    "NumberOfStages": 16,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "RIVIERE DES GALLETS"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BEAU CHAMP BRIDGE SOUTH"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BEAU CHAMPS END OF VILLAGE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BEL OMBRE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "BEL OMBRE GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST MARTIN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "BAIE DU CAP"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "CHOISY"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "CHOISY POMPE DILO"
+      }
+    ]
+  },
+  "14": {
+    "RouteNumber": "14",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "NEW GROVE",
+    "NumberOfStages": 17,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MIDLANDS TOMBSTONE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MIDLANDS GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BANANES WATER PUMP"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BANANES BEEHARRY SHOP"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "EAU BLEU"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CLUNY JUNCTION"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CLUNY MANDIR"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CLUNY CITE BEEMANIQUE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CLUNY JUNCTION 1"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "UNION PARK VILLAGE HALL"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "ROSEBELLE JUNCTION"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "ROSEBELLE GEBERT"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEW GROVE"
+      }
+    ]
+  },
+  "23": {
+    "RouteNumber": "23",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 21,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PERE LAVAL ENTRANCE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MELLE LAURE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "KOYRATTY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CALEBASSE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PITON RESERVOIR"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PITON KARO CANNE 1"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "L'ESPERANCE PITON"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "POUDRE D'OR HAMLET"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "POUDRE DOR BASALT"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "POUDRE DOR DISPENSARY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "POUDRE D'OR HOSPITAL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "ILE D'AMBRE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "ILE D'AMBRE PANCHAVATI JUNCTION"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "POINTE DES LASCAR"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "24": {
+    "RouteNumber": "24",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MELLE LAURE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "KOYRATTY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CALEBASSE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PETITE ROSALI"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "GRANDE ROSALI"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PETITE JULIE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MON SONGES"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "MAUREL ESTATE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "PHOOLYAR NAGAR"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "27": {
+    "RouteNumber": "27",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 19,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MELLE LAURE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "KOYRATTY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CALEBASSE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "MONT ROCHER"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LALOUISA"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BELLE VUE HAREL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MAPOU"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MONT CHOIX"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "PITON KARO CANNE 1"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "GOKOOLA"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LAMITIE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "34": {
+    "RouteNumber": "34",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "BOIS CHERIE",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "GRAND BOIS GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "GRAND BOIS CHAPEL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "BOIS CHERIE"
+      }
+    ]
+  },
+  "35": {
+    "RouteNumber": "35",
+    "StartStage": "VACOAS",
+    "EndStage": "HOLLYROOD",
+    "NumberOfStages": 3,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "LA CAVERNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "HOLLYROOD"
+      }
+    ]
+  },
+  "37": {
+    "RouteNumber": "37",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "MONT ROCHES",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "ST PATRICK CHURCH"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BUCKINGHAM"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CAMP LEVIEUX"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MONT ROCHES"
+      }
+    ]
+  },
+  "52": {
+    "RouteNumber": "52",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "MEDINE",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "FOYER FIAT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "GROS CAILLOUX"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CANOT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BAMBOUS GAMMA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LENTREE MEDINE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MEDINE"
+      }
+    ]
+  },
+  "56": {
+    "RouteNumber": "56",
+    "StartStage": "FLACQ",
+    "EndStage": "GRSE",
+    "NumberOfStages": 10,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "FLACQ"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "BOULET ROUGE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "BRAHMSTHAN"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "ECROUIGNARD BEGINING"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "ECROUINARD END"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CAROLINE"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEL AIR"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ERNEST FLORENT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BEAU CHAMP EAST"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "GRSE"
+      }
+    ]
+  },
+  "60": {
+    "RouteNumber": "60",
+    "StartStage": "NEW GROVE",
+    "EndStage": "BOIS CHERIE",
+    "NumberOfStages": 10,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "NEW GROVE"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "ROSEBELLE GEBERT"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "ROSEBELLE JUNCTION"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "JAWAHARLALL NEHRU HOSPITAL"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "WIRELESS ROAD BEGINING"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "WIRELESS ROAD END"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "GRAND BOIS GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "GRAND BOIS CHAPEL"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BOIS CHERIE"
+      }
+    ]
+  },
+  "61": {
+    "RouteNumber": "61",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "CAMP DIABLE",
+    "NumberOfStages": 17,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "TOOKAY"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RICHE BOIS"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "CAMP DIABLE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "CHATEAU BENARES"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "BATIMARAIS"
+      }
+    ]
+  },
+  "63": {
+    "RouteNumber": "63",
+    "StartStage": "ROCHE NOIR SIDING GAUD",
+    "EndStage": "SSRN HOSPITAL",
+    "NumberOfStages": 16,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ROCHE NOIR SIDING GAUD"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "ROCHE NOIR JUNCTION"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "HAUTE RIVE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PHOOLYAR NAGAR"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "MAUREL ESTATE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "MON SONGES"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PETITE JULIE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "GRANDE ROSALI"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PETITE ROSALI"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "BEAU PLAN"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "SSRN HOSPITAL"
+      }
+    ]
+  },
+  "67": {
+    "RouteNumber": "67",
+    "StartStage": "RIVIERE DES GALLETS",
+    "EndStage": "ROSE HILL",
+    "NumberOfStages": 35,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "RIVIERE DES GALLETS"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "UNION PARK ROUND ABOUT"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "MIDLANDS NIL2"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "MIDLANDS NIL1"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "MIDLANDS"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "LA VIGIE NIL"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "LA VIGIE"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "WOOTUN NIL"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "WOOTUN"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "CAMP FOUQUEREAUX ROUND ABOUT"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "HIGHLANDS"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 32,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 33,
+        "StageName": "CYBER CITY"
+      },
+      {
+        "StageNumber": 34,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 35,
+        "StageName": "ROSE HILL"
+      }
+    ]
+  },
+  "68": {
+    "RouteNumber": "68",
+    "StartStage": "EDWARDVII",
+    "EndStage": "CUREPIPE NORTH",
+    "NumberOfStages": 11,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "EDWARDVII"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "BOUNDARY LABOURDONAIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "OLLIER AVENUE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "69": {
+    "RouteNumber": "69",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "CASCAVELLE",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PALMA L'ECOLE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "PALMA JUNCTION"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "BEAU SONGES"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "GEOFFROY"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "CLARENCE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "CASCAVELLE"
+      }
+    ]
+  },
+  "79": {
+    "RouteNumber": "79",
+    "StartStage": "ROSEBELLE GEBERT",
+    "EndStage": "BOIS CHERIE",
+    "NumberOfStages": 8,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ROSEBELLE GEBERT"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "JAWAHARLALL NEHRU HOSPITAL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "WIRELESS ROAD BEGINING"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "WIRELESS ROAD END"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "GRAND BOIS GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "GRAND BOIS CHAPEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BOIS CHERIE"
+      }
+    ]
+  },
+  "84": {
+    "RouteNumber": "84",
+    "StartStage": "PLAINE DES ROCHES",
+    "EndStage": "SSRN HOSPITAL",
+    "NumberOfStages": 16,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PLAINE DES ROCHES"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PLAINE DES ROCHES GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LAMITIE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "GOKOOLA"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PITON KARO CANNE 1"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "MONT CHOIX"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "MAPOU"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BELLE VUE HAREL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "LALOUISA"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MONT ROCHER"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "BEAU PLAN"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "SSRN HOSPITAL"
+      }
+    ]
+  },
+  "85": {
+    "RouteNumber": "85",
+    "StartStage": "RIVIERE DU REMPART",
+    "EndStage": "PORT LOUIS IMMIGRATION",
+    "NumberOfStages": 21,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "SCHOENFELD MANDAYAS HOUSE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "SCHOENFELD ESTATE OFFICE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "POUDRE D'OR HAMLET"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "L'ESPERANCE PITON"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MONT CHOIX"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "MAPOU"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE VUE HAREL"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LALOUISA"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "MONT ROCHER"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU PLAN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "SSRN HOSPITAL"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE CITRON"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "ARSENAL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "ST JOSEPH CHAPEL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "PERE LAVAL ENTRANCE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      }
+    ]
+  },
+  "86": {
+    "RouteNumber": "86",
+    "StartStage": "RIVIERE DU REMPART",
+    "EndStage": "SSRN HOSPITAL",
+    "NumberOfStages": 24,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "POINTE DES LASCAR"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "ILE D'AMBRE PANCHAVATI JUNCTION"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "ILE D'AMBRE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "POUDRE D'OR HOSPITAL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "POUDRE DOR DISPENSARY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "POUDRE DOR BASALT"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "L'ESPERANCE TREBUCHET"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "POUDRE D'OR HAMLET"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "L'ESPERANCE PITON"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PITON KARO CANNE 1"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "PITON RESERVOIR"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "BEAU PLAN"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "SSRN HOSPITAL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "RIVIERE CITRON"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "ARSENAL"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "ST JOSEPH CHAPEL"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      }
+    ]
+  },
+  "102": {
+    "RouteNumber": "102",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "CUREPIPE NORTH",
+    "NumberOfStages": 17,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PHOENIX POLICE STATION"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "119": {
+    "RouteNumber": "119",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "GRANDE RIVIERE NOIR 3 BRAS STORE",
+    "NumberOfStages": 20,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "FOYER FIAT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "GROS CAILLOUX"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CANOT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BAMBOUS GAMMA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "DRAGON STORE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CLARENCE BEGINING"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "CLARENCE END"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "REMPART BRIDGE SOUTH"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "TAMARIN BEGINING"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "SALT PAN"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "LA PRENEUSE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "GRAND RIVIERE NOIR SALT PAN"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "GRANDE RIVIERE NOIR 3 BRAS STORE"
+      }
+    ]
+  },
+  "122": {
+    "RouteNumber": "122",
+    "StartStage": "CAMP LEVIEUX",
+    "EndStage": "CUREPIPE NORTH",
+    "NumberOfStages": 11,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BOUNDARY ROAD BIJOU MAGIQUE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "ROCHE BRUNE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CAMP LEVIEUX"
+      }
+    ]
+  },
+  "123": {
+    "RouteNumber": "123",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "WOLMAR",
+    "NumberOfStages": 16,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "FOYER FIAT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "GROS CAILLOUX"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CANOT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BAMBOUS GAMMA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "DRAGON STORE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "DOMAINE ANNA"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "FLIC EN FLAC SCHOOL"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "FLIC EN FLAC BEACH"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "WOLMAR"
+      }
+    ]
+  },
+  "125": {
+    "RouteNumber": "125",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "CITE LA CAVERNE",
+    "NumberOfStages": 6,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CITE LA CAVERNE"
+      }
+    ]
+  },
+  "127": {
+    "RouteNumber": "127",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "ROCHE NOIR SIDING GAUD",
+    "NumberOfStages": 20,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MELLE LAURE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "KOYRATTY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CALEBASSE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PITON RESERVOIR"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PITON KARO CANNE 1"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "PITON KARO CANNE 2"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "GOKOOLA"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "LAMITIE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "HAUTE RIVE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "ROCHE NOIR JUNCTION"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "ROCHE NOIR SIDING GAUD"
+      }
+    ]
+  },
+  "129": {
+    "RouteNumber": "129",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "POINTE AUX ROCHES",
+    "NumberOfStages": 26,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "RIVIERE DES GALLETS"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "POINTE AUX ROCHES"
+      }
+    ]
+  },
+  "133": {
+    "RouteNumber": "133",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "CHOISY",
+    "NumberOfStages": 33,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "RIVIERE DES GALLETS"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "BEAU CHAMP BRIDGE SOUTH"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "BILLISAGE BEAU CHAMP BEL OMBRE"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "BEL OMBRE"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "BEL OMBRE GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "ST MARTIN"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "BAIE DU CAP"
+      },
+      {
+        "StageNumber": 32,
+        "StageName": "CHOISY POMPE DILO"
+      },
+      {
+        "StageNumber": 33,
+        "StageName": "CHOISY"
+      }
+    ]
+  },
+  "134": {
+    "RouteNumber": "134",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "BORD CASCADE",
+    "NumberOfStages": 8,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SADALLY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "CANTIN"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "LA CHAPEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BORD CASCADE"
+      }
+    ]
+  },
+  "137": {
+    "RouteNumber": "137",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "CARREAU ACCACIA",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "UNION PARK ROUND ABOUT"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "UNION PARK VILLAGE HALL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "ROSEBELLE JUNCTION"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "ROSEBELLE GEBERT"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA ROSA"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MARE D'ALBERT GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MARE D'ALBERT BASALT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "PLAINE MAGNIEN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "CARREAU ESNOUF"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "MON DESERT"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "KENYA"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "CARREAU ACCACIA"
+      }
+    ]
+  },
+  "141": {
+    "RouteNumber": "141",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "BORD CASCADE",
+    "NumberOfStages": 17,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GUIBIES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GREWALS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SOREZ"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTAGNE ORY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARTINDALE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "SMF"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "CANTIN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA CHAPEL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "BORD CASCADE"
+      }
+    ]
+  },
+  "153": {
+    "RouteNumber": "153",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "ST PIERRE",
+    "NumberOfStages": 14,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MGI MOKA"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "GENTILLY"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "ST PIERRE"
+      }
+    ]
+  },
+  "156": {
+    "RouteNumber": "156",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "OLLIER",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BEAU BOULOT"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "OLLIER"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BERTHAUD"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "NHDC LA SOURCE"
+      }
+    ]
+  },
+  "163": {
+    "RouteNumber": "163",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "VACOAS",
+    "NumberOfStages": 14,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CASSIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GUIBIES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GREWALS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SOREZ"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTAGNE ORY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARTINDALE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "VACOAS"
+      }
+    ]
+  },
+  "164": {
+    "RouteNumber": "164",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "ST PIERRE",
+    "NumberOfStages": 13,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SMF"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PHOENIX IGCC"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "EBENE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "MOKA MGI"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "GENTILLY"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST PIERRE"
+      }
+    ]
+  },
+  "165": {
+    "RouteNumber": "165",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "ST PIERRE",
+    "NumberOfStages": 15,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SMF"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PHOENIX IGCC"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "EBEN"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BAGATELE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MOKAHOSPITAL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MOKASCHOOL"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RIV BAPTIST"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "ST PIERRE"
+      }
+    ]
+  },
+  "166": {
+    "RouteNumber": "166",
+    "StartStage": "VACOAS",
+    "EndStage": "CITE LA CAVERNE",
+    "NumberOfStages": 4,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "LA CAVERNE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CITE LA CAVERNE"
+      }
+    ]
+  },
+  "167": {
+    "RouteNumber": "167",
+    "StartStage": "BORD CASCADE",
+    "EndStage": "ST PIERRE",
+    "NumberOfStages": 13,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "BORD CASCADE"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "LA CHAPEL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CANTIN"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SMF"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "MOKA MGI"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "GENTILLY"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST PIERRE"
+      }
+    ]
+  },
+  "168": {
+    "RouteNumber": "168",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "GRAND BASSIN",
+    "NumberOfStages": 15,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "GRAND BOIS GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "GRAND BOIS CHAPEL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "BOIS CHERIE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "POLIDOR"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "GOOLIE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "GRAND BASSIN"
+      }
+    ]
+  },
+  "170": {
+    "RouteNumber": "170",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "CUREPIPE NORTH",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "179": {
+    "RouteNumber": "179",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "WOLMAR",
+    "NumberOfStages": 20,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "PALMA L'ECOLE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PALMA JUNCTION"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BEAU SONGES"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "TIREIL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "GEOFFROY"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "DRAGON STORE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "DOMAINE ANNA"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "FLIC EN FLAC SCHOOL"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "FLIC EN FLAC BEACH"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "WOLMAR"
+      }
+    ]
+  },
+  "180": {
+    "RouteNumber": "180",
+    "StartStage": "BORD CASCADE",
+    "EndStage": "VALENTINA",
+    "NumberOfStages": 7,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "BORD CASCADE"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "LA CHAPEL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CANTIN"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PHOENIX IGCC"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "VALENTINA"
+      }
+    ]
+  },
+  "188": {
+    "RouteNumber": "188",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "SODNAC",
+    "NumberOfStages": 11,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CASSIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GUIBIES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GREWALS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SOREZ"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTAGNE ORY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARTINDALE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "SODNAC"
+      }
+    ]
+  },
+  "189": {
+    "RouteNumber": "189",
+    "StartStage": "ROSE HILL",
+    "EndStage": "WOLMAR",
+    "NumberOfStages": 13,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "HIGNII ROAD"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "MONT ROCHES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "STGGCDJ"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "ST MARTIN"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "ROCHE BRUNE"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "DRAGON STORE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "DOMAINE ANNA"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "FLIC EN FLAC SCHOOL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "FLIC EN FLAC BEACH"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "WOLMAR"
+      }
+    ]
+  },
+  "190": {
+    "RouteNumber": "190",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "PORT LOUIS IMMIGRATION",
+    "NumberOfStages": 2,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      }
+    ]
+  },
+  "195": {
+    "RouteNumber": "195",
+    "StartStage": "QUATRE BORNES",
+    "EndStage": "JUMBO",
+    "NumberOfStages": 4,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "GLAIUEL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "SODNAC"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "JUMBO"
+      }
+    ]
+  },
+  "197": {
+    "RouteNumber": "197",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "RIVIERE DES GALLETS",
+    "NumberOfStages": 40,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CASSIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GUIBIES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GREWALS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SOREZ"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTAGNE ORY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARTINDALE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "HIGHLANDS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CAMP FOUQUEREAUX ROUND ABOUT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "WOOTUN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "WOOTUN NIL"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA VIGIE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LA VIGIE NIL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "MIDLANDS"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "MIDLANDS NIL1"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "MIDLANDS NIL2"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "UNION PARK ROUND ABOUT"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 32,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 33,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 34,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 35,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 36,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 37,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 38,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 39,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 40,
+        "StageName": "RIVIERE DES GALLETS"
+      }
+    ]
+  },
+  "203": {
+    "RouteNumber": "203",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "CAMP LEVIEUX",
+    "NumberOfStages": 11,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "FOYER FIAT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "GROS CAILLOUX"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CANOT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "ST MARTIN"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "MONT ROCHES"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CAMP LEVIEUX"
+      }
+    ]
+  },
+  "219": {
+    "RouteNumber": "219",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "QUATRE BORNES",
+    "NumberOfStages": 8,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "SIVANANDA AVENUE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "SADALLY"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "JUMBO"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MEDPOINT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "QUATRE BORNES"
+      }
+    ]
+  },
+  "222": {
+    "RouteNumber": "222",
+    "StartStage": "ROSE HILL",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 28,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "EBENE IVTB"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "MGI MOKA"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "GENTILLY"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "ST PIERRE"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "VERDUNBEGINING"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "VERDUN BAR LEDUC BRIDGE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "ALMA BEGINING"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "ALMA CIMETIERE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "QUARTIER MILITAIRE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PROVIDENCE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST JULIEN FACTORY"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "ST JULIEN RITOU'S HOUSE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "ST JULIEN END"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNITE JUNCTION"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "HUGGINSON JUNCTION"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "ST JULIEN GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "LALLMATIE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "BON ACCUIEL"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "GRANDE RETRAITE"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BOIS D'OISEAU"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "PETITE RETRAITE"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "LAVENTURE FOOTBALL GROUND"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "AMAURY JUNCTION"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "226": {
+    "RouteNumber": "226",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 26,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "COUVENT LORETTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "COUACAUD"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "BELLE RIVE JUNCTION"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE RIVE CARO CHAPEAU"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "VALETTA JUNCTION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "VALETTA PATATE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "VUILLEMIN"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "QUARTIER MILITAIRE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PROVIDENCE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "ST JULIEN FACTORY"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "ST JULIEN RITOU'S HOUSE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST JULIEN END"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "UNITE JUNCTION"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "HUGGINSON JUNCTION"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "ST JULIEN GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LALLMATIE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "BON ACCUIEL"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "LATAPI"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "BRISEE VERDIERE"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "MARE D'AUSTRALIA"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "MARE D'AUSTRALIA JUNCTION"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "PHOOLYAR NAGAR"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "242": {
+    "RouteNumber": "242",
+    "StartStage": "FOYER FIAT",
+    "EndStage": "CUREPIPE NORTH",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "FOYER FIAT"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "243": {
+    "RouteNumber": "243",
+    "StartStage": "QUATRE BORNES",
+    "EndStage": "CHAMAREL",
+    "NumberOfStages": 24,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PALMA L'ECOLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "PALMA JUNCTION"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BEAU SONGES"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTEE BOL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BAMBOUS GAMMA"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BAMBOUS NHDC"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CASCAVELLE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CLARENCE BEGINING"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CLARENCE END"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TAMARIN BEGINING"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "TAMARIN SALT PANS"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA PRENEUSE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "GRAND RIVIERE NOIR SALT PAN"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "BLACK RIVER TROIS BRAS STORE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "MONTEE BOIS PUANT"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "PETIRE RIVIERE NOIRE SALT PAN"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "PETITE RIVIERE NOIRE END"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "CASE NOYALE"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "CHAMAREL BEGINING"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "CHAMAREL"
+      }
+    ]
+  },
+  "245": {
+    "RouteNumber": "245",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "RICHE BOIS",
+    "NumberOfStages": 35,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CASSIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GUIBIES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GREWALS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SOREZ"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTAGNE ORY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARTINDALE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "HIGHLANDS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CAMP FOUQUEREAUX ROUND ABOUT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "WOOTUN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "WOOTUN NIL"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA VIGIE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LA VIGIE NIL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "MIDLANDS"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "MIDLANDS NIL1"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "MIDLANDS NIL2"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "UNION PARK ROUND ABOUT"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "BATIMARAIS"
+      },
+      {
+        "StageNumber": 32,
+        "StageName": "CHATEAU BENARES"
+      },
+      {
+        "StageNumber": 33,
+        "StageName": "ST AMANT BRIDGE"
+      },
+      {
+        "StageNumber": 34,
+        "StageName": "CAMP DIABLE"
+      },
+      {
+        "StageNumber": 35,
+        "StageName": "RICHE BOIS"
+      }
+    ]
+  },
+  "246": {
+    "RouteNumber": "246",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "BOIS CHERIE",
+    "NumberOfStages": 27,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CASSIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GUIBIES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GREWALS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SOREZ"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTAGNE ORY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARTINDALE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "HIGHLANDS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CAMP FOUQUEREAUX ROUND ABOUT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "WOOTUN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "WOOTUN NIL"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA VIGIE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LA VIGIE NIL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "MIDLANDS"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "MIDLANDS NIL1"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "MIDLANDS NIL2"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "UNION PARK ROUND ABOUT"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "GRAND BOIS GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "GRAND BOIS CHAPEL"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "BOIS CHERIE"
+      }
+    ]
+  },
+  "255": {
+    "RouteNumber": "255",
+    "StartStage": "BORD CASCADE",
+    "EndStage": "ROSE HILL",
+    "NumberOfStages": 10,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "BORD CASCADE"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "LA CHAPEL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CANTIN"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "EBENE IVTB"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "ROSE HILL"
+      }
+    ]
+  },
+  "122A": {
+    "RouteNumber": "122A",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "CAMP LEVIEUX",
+    "NumberOfStages": 11,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BOUNDARY ROAD BIJOU MAGIQUE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "ROCHE BRUNE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CAMP LEVIEUX"
+      }
+    ]
+  },
+  "125A": {
+    "RouteNumber": "125A",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "CITE LA CAVERNE",
+    "NumberOfStages": 6,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "EAU COULEE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CASTEL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CLARISSE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CITE LA CAVERNE"
+      }
+    ]
+  },
+  "133C": {
+    "RouteNumber": "133C",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "CHAMOUNY",
+    "NumberOfStages": 38,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "RIVIERE DES GALLETS"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "BEAU CHAMP BRIDGE SOUTH"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "BEAU CHAMP BALLISAGE SOUTH"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "BEL OMBRE"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "BEL OMBRE GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "ST MARTIN"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "BAIE DU CAP"
+      },
+      {
+        "StageNumber": 32,
+        "StageName": "CHOISY"
+      },
+      {
+        "StageNumber": 33,
+        "StageName": "CHOISY POMPE DILO"
+      },
+      {
+        "StageNumber": 34,
+        "StageName": "ROULO"
+      },
+      {
+        "StageNumber": 35,
+        "StageName": "CHAMAREL BEGINING"
+      },
+      {
+        "StageNumber": 36,
+        "StageName": "MAINGUR SOUTH"
+      },
+      {
+        "StageNumber": 37,
+        "StageName": "CHAMAREL END"
+      },
+      {
+        "StageNumber": 38,
+        "StageName": "CHAMAREL"
+      }
+    ]
+  },
+  "14A": {
+    "RouteNumber": "14A",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "PAVE CITRON",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MIDLANDS TOMBSTONE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MIDLANDS CHURCH"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CHARTREUSE JUNCTION"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "MIDLANDS TEA MARKETING"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "CAMP DU THE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "RIVIERE DU BOIS 1"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU BOIS 2"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PAVE CITRON"
+      }
+    ]
+  },
+  "156A": {
+    "RouteNumber": "156A",
+    "StartStage": "ROSE HILL",
+    "EndStage": "LA SOURCE",
+    "NumberOfStages": 5,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA SOURCE"
+      }
+    ]
+  },
+  "165A": {
+    "RouteNumber": "165A",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "ST PIERRE",
+    "NumberOfStages": 15,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PHOENIX IGCC"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "EBEN"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BAGATELE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MOKAHOSPITAL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MOKASCHOOL"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RIV BAPTIST"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "ST PIERRE"
+      }
+    ]
+  },
+  "165B": {
+    "RouteNumber": "165B",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "ST PIERRE",
+    "NumberOfStages": 15,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PHOENIX IGCC"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "EBEN"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BAGATELE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MOKAHOSPITAL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MOKASCHOOL"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RIV BAPTIST"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "ST PIERRE"
+      }
+    ]
+  },
+  "165D": {
+    "RouteNumber": "165D",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "ST PIERRE",
+    "NumberOfStages": 15,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PHOENIX IGCC"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "EBEN"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BAGATELE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MOKAHOSPITAL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MOKASCHOOL"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RIV BAPTIST"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "ST PIERRE"
+      }
+    ]
+  },
+  "170A": {
+    "RouteNumber": "170A",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "CUREPIPE NORTH",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "179A": {
+    "RouteNumber": "179A",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "WOLMAR",
+    "NumberOfStages": 20,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "PALMA L'ECOLE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PALMA JUNCTION"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BEAU SONGES"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "TIREIL"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "GEOFFROY"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "DRAGON STORE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "DOMAINE ANNA"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "FLIC EN FLAC SCHOOL"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "FLIC EN FLAC BEACH"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "WOLMAR"
+      }
+    ]
+  },
+  "179B": {
+    "RouteNumber": "179B",
+    "StartStage": "BORD CASCADE",
+    "EndStage": "WOLMAR",
+    "NumberOfStages": 19,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "BORD CASCADE"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "LA CHAPEL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "PAVADAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PALMA L'ECOLE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "PALMA JUNCTION"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BEAU SONGES"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "TIREIL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "GEOFFROY"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "DRAGON STORE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "DOMAINE ANNA"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "FLIC EN FLAC SCHOOL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "FLIC EN FLAC BEACH"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "WOLMAR"
+      }
+    ]
+  },
+  "179C": {
+    "RouteNumber": "179C",
+    "StartStage": "ST PIERRE",
+    "EndStage": "WOLMAR",
+    "NumberOfStages": 19,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ST PIERRE"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "GENTILLY"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "MGI MOKA"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PALMA L'ECOLE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "PALMA JUNCTION"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BEAU SONGES"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "TIREIL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "GEOFFROY"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "DRAGON STORE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "FLIC EN FLAC JUNCTION"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "DOMAINE ANNA"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "FLIC EN FLAC SCHOOL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "FLIC EN FLAC BEACH"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "WOLMAR"
+      }
+    ]
+  },
+  "197A": {
+    "RouteNumber": "197A",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "CHAMOUNY",
+    "NumberOfStages": 39,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CASSIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GUIBIES"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "GREWALS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "SOREZ"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTAGNE ORY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARTINDALE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "HIGHLANDS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "CAMP FOUQUEREAUX ROUND ABOUT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "WOOTUN"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "WOOTUN NIL"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA VIGIE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LA VIGIE NIL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "MIDLANDS"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "MIDLANDS NIL1"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "MIDLANDS NIL2"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "UNION PARK ROUND ABOUT"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 32,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 33,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 34,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 35,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 36,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 37,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 38,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 39,
+        "StageName": "CHAMOUNY"
+      }
+    ]
+  },
+  "222A": {
+    "RouteNumber": "222A",
+    "StartStage": "ROSE HILL",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 30,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "EBENE IVTB"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "REDUIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "MGI MOKA"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "GENTILLY"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "ST PIERRE"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "VERDUNBEGINING"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "VERDUN BAR LEDUC BRIDGE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "ALMA BEGINING"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "ALMA CIMETIERE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "QUARTIER MILITAIRE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PROVIDENCE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST JULIEN FACTORY"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "ST JULIEN RITOU'S HOUSE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "ST JULIEN END"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNITE JUNCTION"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "HUGGINSON JUNCTION"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "ST JULIEN GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "LALLMATIE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "BEL VEDERE"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "LATAPI"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BON ACCUIEL"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "GRANDE RETRAITE"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "BOIS D'OISEAU"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "LAVENTURE BON MARCHE MAG"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "LAVENTURE FOOTBALL GROUND"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "AMAURY JUNCTION"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "226A": {
+    "RouteNumber": "226A",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 26,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "COUVENT LORETTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "COUACAUD"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "BELLE RIVE JUNCTION"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE RIVE CARO CHAPEAU"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "VALETTA JUNCTION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "VALETTA PATATE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "VUILLEMIN"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "QUARTIER MILITAIRE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PROVIDENCE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "ST JULIEN FACTORY"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "ST JULIEN RITOU'S HOUSE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST JULIEN END"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "UNITE JUNCTION"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "HUGGINSON JUNCTION"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "ST JULIEN GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LALLMATIE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "BON ACCUIEL"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "GRANDE RETRAITE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "BOIS D'OISEAU"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "LAVENTURE BON MARCHE MAG"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "L'AVENETURE"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "AMAURY JUNCTION"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "226B": {
+    "RouteNumber": "226B",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 27,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "COUVENT LORETTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "COUACAUD"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "BELLE RIVE JUNCTION"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE RIVE CARO CHAPEAU"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "VALETTA JUNCTION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "VALETTA PATATE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "VUILLEMIN"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "QUARTIER MILITAIRE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PROVIDENCE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "ST JULIEN FACTORY"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "ST JULIEN RITOU'S HOUSE"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "ST JULIEN END"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "UNITE JUNCTION"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "HUGGINSON JUNCTION"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "ST JULIEN GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LALLMATIE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "BRISEE VERDIERE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "BON ACCUIEL"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "GRANDE RETRAITE"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "BOIS D'OISEAU"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "LAVENTURE BON MARCHE MAG"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "LAVENTURE FOOTBALL GROUND"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "AMAURY JUNCTION"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "23A": {
+    "RouteNumber": "23A",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 21,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MELLE LAURE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "KOYRATTY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CALEBASSE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PITON RESERVOIR"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "L'ESPERANCE PITON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "POUDRE D'OR HAMLET"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "L'ESPERANCE TREBUCHET"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "POUDRE DOR BASALT"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "POUDRE DOR DISPENSARY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "POUDRE D'OR HOSPITAL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "ILE D'AMBRE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "ILE D'AMBRE PANCHAVATI JUNCTION"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "POINTE DES LASCAR"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "23B": {
+    "RouteNumber": "23B",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "RIVIERE DU REMPART",
+    "NumberOfStages": 21,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PERE LAVAL ENTRANCE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MELLE LAURE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "KOYRATTY"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CALEBASSE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PITON RESERVOIR"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "PITON KARO CANNE 1"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "L'ESPERANCE PITON"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "POUDRE D'OR HAMLET"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "L'ESPERANCE TREBUCHET"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "POUDRE DOR DISPENSARY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "POUDRE D'OR HOSPITAL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "ILE D'AMBRE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "ILE D'AMBRE PANCHAVATI JUNCTION"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "POINTE DES LASCAR"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "RIVIERE DU REMPART"
+      }
+    ]
+  },
+  "242A": {
+    "RouteNumber": "242A",
+    "StartStage": "FOYER FIAT",
+    "EndStage": "CUREPIPE NORTH",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "FOYER FIAT"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "243A": {
+    "RouteNumber": "243A",
+    "StartStage": "CHAMAREL END",
+    "EndStage": "GRAND RIVIERE NOIR SALT PAN",
+    "NumberOfStages": 8,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CHAMAREL END"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CHAMAREL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CASE NOYALE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "PETITE RIVIERE NOIRE END"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "PETIRE RIVIERE NOIRE SALT PAN"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MONTEE BOIS PUANT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BLACK RIVER TROIS BRAS STORE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "GRANDE RIVIERE NOIR 3 BRAS STORE"
+      }
+    ]
+  },
+  "27A": {
+    "RouteNumber": "27A",
+    "StartStage": "RIVIERE DU REMPART",
+    "EndStage": "ROCHE NOIR SIDING GAUD",
+    "NumberOfStages": 4,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "HAUTE RIVE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "ROCHE NOIR JUNCTION"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "ROCHE NOIR SIDING GAUD"
+      }
+    ]
+  },
+  "37A": {
+    "RouteNumber": "37A",
+    "StartStage": "CUREPIPE NORTH",
+    "EndStage": "MONT ROCHES",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE NORTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "ST PATRICK CHURCH"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BUCKINGHAM"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CAMP LEVIEUX"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "MONT ROCHES"
+      }
+    ]
+  },
+  "3A": {
+    "RouteNumber": "3A",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "JUMBO",
+    "NumberOfStages": 15,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "JUMBO"
+      }
+    ]
+  },
+  "3B": {
+    "RouteNumber": "3B",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "BORD CASCADE",
+    "NumberOfStages": 17,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "PAVADAY"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA CHAPEL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "BORD CASCADE"
+      }
+    ]
+  },
+  "3C": {
+    "RouteNumber": "3C",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "BASSIN",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "BASSIN"
+      }
+    ]
+  },
+  "3D": {
+    "RouteNumber": "3D",
+    "StartStage": "PORT LOUIS VICTORIA",
+    "EndStage": "MORC POUSSON",
+    "NumberOfStages": 18,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS VICTORIA"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SUNRAY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "BELLE ETOILE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEAU BASSIN ST JOHN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BEAU BASSIN NID HIRONDEL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ROSE HILL"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "PAVADAY"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "SANDOKAN"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LA MARIE"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "MORC POUSSON"
+      }
+    ]
+  },
+  "3E": {
+    "RouteNumber": "3E",
+    "StartStage": "VACOAS",
+    "EndStage": "ROSE HILL",
+    "NumberOfStages": 7,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "CITE ST JEAN"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BELLE ROSE PEPSI"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "ROSE HILL"
+      }
+    ]
+  },
+  "4A": {
+    "RouteNumber": "4A",
+    "StartStage": "QUATRE BORNES",
+    "EndStage": "QUATRE BORNES",
+    "NumberOfStages": 8,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "QUATRE BORNES"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "52A": {
+    "RouteNumber": "52A",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "ALBION BEACH",
+    "NumberOfStages": 10,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "CITE BETEL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "BELLE VUE WEST"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "ALBION CAMP CREOLE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "ALBION BEACH"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "ALBION MONT PLAISIR"
+      }
+    ]
+  },
+  "52B": {
+    "RouteNumber": "52B",
+    "StartStage": "PORT LOUIS IMMIGRATION",
+    "EndStage": "BAMBOUS NHDC",
+    "NumberOfStages": 11,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "VENUS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "GRNW"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CAMP BENOIT"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "PETITE RIVIERE POST OFFICE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "FOYER FIAT"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "GROS CAILLOUX"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "CANOT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "BAMBOUS GAMMA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "BAMBOUS JUNCTION CAPRICORN"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "GEOFFROY"
+      }
+    ]
+  },
+  "61A": {
+    "RouteNumber": "61A",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "CAMP DIABLE",
+    "NumberOfStages": 19,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "BATIMARAIS"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "CHATEAU BENARES"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "ST AMANT BRIDGE"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "CAMP DIABLE"
+      }
+    ]
+  },
+  "63A": {
+    "RouteNumber": "63A",
+    "StartStage": "ROCHE NOIR SIDING GAUD",
+    "EndStage": "PORT LOUIS IMMIGRATION",
+    "NumberOfStages": 24,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "ROCHE NOIR SIDING GAUD"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "ROCHE NOIR JUNCTION"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "HAUTE RIVE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BELLE VUE MAUREL"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PHOOLYAR NAGAR"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "MAUREL ESTATE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "MON SONGES"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PETITE JULIE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "GRANDE ROSALI"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "PETITE ROSALI"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "THE MOUNT"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "MON GOUT"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "BEAU PLAN"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "SSRN HOSPITAL"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "RIVIERE CITRON"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "ARSENAL"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "ST JOSEPH CHAPEL"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      }
+    ]
+  },
+  "66B": {
+    "RouteNumber": "66B",
+    "StartStage": "VACOAS",
+    "EndStage": "CUREPIPE SOUTH",
+    "NumberOfStages": 9,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CANTIN"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SANDOKAN"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA MARIE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BIGARA"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "AGRICULTURE EXPERIMENTAL"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "FOREST SIDE WINNERS"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "CUREPIPE SOUTH"
+      }
+    ]
+  },
+  "66C": {
+    "RouteNumber": "66C",
+    "StartStage": "VACOAS",
+    "EndStage": "GRAND BASSIN",
+    "NumberOfStages": 12,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "VACOAS"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CANTIN"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "BHAGAT"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "SANDOKAN"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA MARIE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "BEARD"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "MARE AUX VACOAS"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PLAINE SOPHIE"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "MARE LONGUE"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "PLAINE CHAMPAGNE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "GRAND BASSIN NARROW BRIDGE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "GRAND BASSIN"
+      }
+    ]
+  },
+  "67A": {
+    "RouteNumber": "67A",
+    "StartStage": "RIVIERE DES GALLETS",
+    "EndStage": "ROSE HILL",
+    "NumberOfStages": 34,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "RIVIERE DES GALLETS"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "CHEMIN GRENIER TAMIL TEMPLE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "UNION PARK ROUND ABOUT"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "MIDLANDS NIL2"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "MIDLANDS NIL1"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "MIDLANDS"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "LA VIGIE NIL"
+      },
+      {
+        "StageNumber": 25,
+        "StageName": "LA VIGIE"
+      },
+      {
+        "StageNumber": 26,
+        "StageName": "WOOTUN NIL"
+      },
+      {
+        "StageNumber": 27,
+        "StageName": "WOOTUN"
+      },
+      {
+        "StageNumber": 28,
+        "StageName": "CAMP FOUQUEREAUX ROUND ABOUT"
+      },
+      {
+        "StageNumber": 29,
+        "StageName": "HIGHLANDS"
+      },
+      {
+        "StageNumber": 30,
+        "StageName": "PONT FER"
+      },
+      {
+        "StageNumber": 31,
+        "StageName": "SHOPRITE"
+      },
+      {
+        "StageNumber": 32,
+        "StageName": "TRIANON"
+      },
+      {
+        "StageNumber": 33,
+        "StageName": "EBENE IVTB"
+      },
+      {
+        "StageNumber": 34,
+        "StageName": "ROSE HILL"
+      }
+    ]
+  },
+  "68A": {
+    "RouteNumber": "68A",
+    "StartStage": "EDWARDVII",
+    "EndStage": "CUREPIPE SOUTH",
+    "NumberOfStages": 11,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "EDWARDVII"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "BOUNDARY LABOURDONAIS"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "OLLIER AVENUE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "LA LOUISE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "CANDOS"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "MODERN"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "SAVOY"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "RIVERWALK"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "PURELAIT"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "DARNE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "CUREPIPE NORTH"
+      }
+    ]
+  },
+  "6A": {
+    "RouteNumber": "6A",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "RIVIERE DES GALLETS",
+    "NumberOfStages": 24,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "SURINAM LOTUS"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "CONTOUR LEON"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "BEL VUE SOUTH CHEMIN GRENIER"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "CHEMIN GRENIER TAXI STAND"
+      },
+      {
+        "StageNumber": 24,
+        "StageName": "CHAMOUNY"
+      }
+    ]
+  },
+  "6B": {
+    "RouteNumber": "6B",
+    "StartStage": "CUREPIPE SOUTH",
+    "EndStage": "MARTINIERE",
+    "NumberOfStages": 20,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "CUREPIPE SOUTH"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "FOREST SIDE POST OFFICE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "XVI MILLE"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "CORLIS"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LA PEYRE HILL"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "NOUVELLE FRANCE POLICE STATION"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "NOUVELE FRANCE PONT COLEVILLE"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "BEAU CLIMAT"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "LA FLORA"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "LA FLORA CORPERATIVE"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "RIVIERE DU POSTE"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "RIVIERE DRAGON"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "BEAU BOIS"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "TYACK"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "RIVIERE DES ANGUILLES"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "UNION DUCRAY"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "NEGRESS"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "SOUILLAC"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "SURINAM MOSQUE"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "MARTINIERE"
+      }
+    ]
+  },
+  "84A": {
+    "RouteNumber": "84A",
+    "StartStage": "PLAINE DES ROCHES",
+    "EndStage": "PORT LOUIS IMMIGRATION",
+    "NumberOfStages": 23,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "PLAINE DES ROCHES"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "PLAINE DES ROCHES GOVT SCHOOL"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 4,
+        "StageName": "MONT LOISIR SE"
+      },
+      {
+        "StageNumber": 5,
+        "StageName": "LAMITIE"
+      },
+      {
+        "StageNumber": 6,
+        "StageName": "GOKOOLA"
+      },
+      {
+        "StageNumber": 7,
+        "StageName": "PITON KARO CANNE 1"
+      },
+      {
+        "StageNumber": 8,
+        "StageName": "PITON"
+      },
+      {
+        "StageNumber": 9,
+        "StageName": "MONT CHOIX"
+      },
+      {
+        "StageNumber": 10,
+        "StageName": "MAPOU"
+      },
+      {
+        "StageNumber": 11,
+        "StageName": "BELLE VUE HAREL"
+      },
+      {
+        "StageNumber": 12,
+        "StageName": "LALOUISA"
+      },
+      {
+        "StageNumber": 13,
+        "StageName": "MONT ROCHER"
+      },
+      {
+        "StageNumber": 14,
+        "StageName": "PAMPLEMOUSSE"
+      },
+      {
+        "StageNumber": 15,
+        "StageName": "BEAU PLAN"
+      },
+      {
+        "StageNumber": 16,
+        "StageName": "SSRN HOSPITAL"
+      },
+      {
+        "StageNumber": 17,
+        "StageName": "RIVIERE CITRON"
+      },
+      {
+        "StageNumber": 18,
+        "StageName": "ARSENAL"
+      },
+      {
+        "StageNumber": 19,
+        "StageName": "ST JOSEPH CHAPEL"
+      },
+      {
+        "StageNumber": 20,
+        "StageName": "TERRE ROUGE"
+      },
+      {
+        "StageNumber": 21,
+        "StageName": "PERE LAVAL"
+      },
+      {
+        "StageNumber": 22,
+        "StageName": "PLAINE VERTE"
+      },
+      {
+        "StageNumber": 23,
+        "StageName": "PORT LOUIS IMMIGRATION"
+      }
+    ]
+  },
+  "85A": {
+    "RouteNumber": "85A",
+    "StartStage": "RIVIERE DU REMPART",
+    "EndStage": "LA CLEMENCE",
+    "NumberOfStages": 3,
+    "Stages": [
+      {
+        "StageNumber": 1,
+        "StageName": "RIVIERE DU REMPART"
+      },
+      {
+        "StageNumber": 2,
+        "StageName": "SCHOENFELD MANDAYAS HOUSE"
+      },
+      {
+        "StageNumber": 3,
+        "StageName": "LA CLEMENCE"
+      }
+    ]
+  }
+}
