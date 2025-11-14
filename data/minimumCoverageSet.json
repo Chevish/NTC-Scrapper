@@ -1,0 +1,412 @@
+[
+  {
+    "from": "VENUS",
+    "fromId": 1527,
+    "to": "GRNW",
+    "toId": 1564,
+    "routes": [
+      "3",
+      "52",
+      "69",
+      "102",
+      "119",
+      "123",
+      "156",
+      "170",
+      "203",
+      "170A",
+      "3A",
+      "3B",
+      "3C",
+      "3D",
+      "52A",
+      "52B"
+    ]
+  },
+  {
+    "from": "NOUVELE FRANCE PONT COLEVILLE",
+    "fromId": 1404,
+    "to": "BEAU CLIMAT",
+    "toId": 1409,
+    "routes": [
+      "6",
+      "34",
+      "61",
+      "129",
+      "133",
+      "168",
+      "197",
+      "245",
+      "246",
+      "133C",
+      "197A",
+      "61A",
+      "6A",
+      "6B"
+    ]
+  },
+  {
+    "from": "CUREPIPE NORTH",
+    "fromId": 1493,
+    "to": "DARNE",
+    "toId": 1812,
+    "routes": [
+      "122",
+      "125",
+      "134",
+      "153",
+      "164",
+      "165",
+      "165A",
+      "165B",
+      "165D",
+      "179A",
+      "37A"
+    ]
+  },
+  {
+    "from": "MONT LOISIR SE",
+    "fromId": 1389,
+    "to": "RIVIERE DU REMPART",
+    "toId": 1391,
+    "routes": [
+      "24",
+      "27",
+      "127",
+      "222",
+      "226",
+      "222A",
+      "226A",
+      "226B"
+    ]
+  },
+  {
+    "from": "CANDOS",
+    "fromId": 1356,
+    "to": "MODERN",
+    "toId": 1274,
+    "routes": [
+      "3",
+      "4",
+      "68",
+      "163",
+      "170",
+      "242",
+      "170A",
+      "242A",
+      "3A",
+      "3B",
+      "3D",
+      "4A",
+      "68A"
+    ]
+  },
+  {
+    "from": "PAMPLEMOUSSE",
+    "fromId": 192,
+    "to": "BEAU PLAN",
+    "toId": 1683,
+    "routes": [
+      "63",
+      "84",
+      "85",
+      "86",
+      "63A",
+      "84A"
+    ]
+  },
+  {
+    "from": "MODERN",
+    "fromId": 1274,
+    "to": "CANDOS",
+    "toId": 1356,
+    "routes": [
+      "37",
+      "122",
+      "153",
+      "179",
+      "122A",
+      "179A",
+      "179B",
+      "37A",
+      "3E"
+    ]
+  },
+  {
+    "from": "PONT FER",
+    "fromId": 1921,
+    "to": "SHOPRITE",
+    "toId": 316,
+    "routes": [
+      "67",
+      "164",
+      "165",
+      "167",
+      "255",
+      "165D",
+      "67A"
+    ]
+  },
+  {
+    "from": "FOREST SIDE POST OFFICE",
+    "fromId": 1287,
+    "to": "XVI MILLE",
+    "toId": 1382,
+    "routes": [
+      "6",
+      "14",
+      "34",
+      "61",
+      "129",
+      "133",
+      "137",
+      "168",
+      "133C",
+      "14A",
+      "61A",
+      "6A",
+      "6B"
+    ]
+  },
+  {
+    "from": "REDUIT",
+    "fromId": 1579,
+    "to": "TRIANON",
+    "toId": 1626,
+    "routes": [
+      "141",
+      "163",
+      "188",
+      "197",
+      "245",
+      "246",
+      "179C",
+      "197A"
+    ]
+  },
+  {
+    "from": "TERRE ROUGE",
+    "fromId": 1427,
+    "to": "MELLE LAURE",
+    "toId": 1565,
+    "routes": [
+      "23",
+      "24",
+      "27",
+      "127",
+      "23A",
+      "23B"
+    ]
+  },
+  {
+    "from": "SOUILLAC",
+    "fromId": 1503,
+    "to": "SURINAM MOSQUE",
+    "toId": 1296,
+    "routes": [
+      "6",
+      "7",
+      "8",
+      "129",
+      "133",
+      "197",
+      "133C",
+      "197A",
+      "6A",
+      "6B"
+    ]
+  },
+  {
+    "from": "BAMBOUS GAMMA",
+    "fromId": 1742,
+    "to": "BAMBOUS JUNCTION CAPRICORN",
+    "toId": 1743,
+    "routes": [
+      "5",
+      "52",
+      "119",
+      "123",
+      "243",
+      "52B"
+    ]
+  },
+  {
+    "from": "LA FLORA",
+    "fromId": 1550,
+    "to": "GRAND BOIS GOVT SCHOOL",
+    "toId": 2024,
+    "routes": [
+      "34",
+      "60",
+      "79",
+      "168",
+      "246"
+    ]
+  },
+  {
+    "from": "CANTIN",
+    "fromId": 1907,
+    "to": "BHAGAT",
+    "toId": 1855,
+    "routes": [
+      "134",
+      "141",
+      "66B",
+      "66C"
+    ]
+  },
+  {
+    "from": "CITE ST JEAN",
+    "fromId": 1213,
+    "to": "LA LOUISE",
+    "toId": 1270,
+    "routes": [
+      "3",
+      "69",
+      "163",
+      "170",
+      "242",
+      "156A",
+      "170A",
+      "179C",
+      "242A",
+      "3A",
+      "3B",
+      "3C",
+      "3D"
+    ]
+  },
+  {
+    "from": "BAMBOUS JUNCTION CAPRICORN",
+    "fromId": 1743,
+    "to": "DRAGON STORE",
+    "toId": 2426,
+    "routes": [
+      "119",
+      "123",
+      "179",
+      "189",
+      "179A",
+      "179B",
+      "179C"
+    ]
+  },
+  {
+    "from": "VACOAS",
+    "fromId": 1277,
+    "to": "MODERN",
+    "toId": 1274,
+    "routes": [
+      "153",
+      "166",
+      "179",
+      "122A",
+      "179A",
+      "37A",
+      "3E"
+    ]
+  },
+  {
+    "from": "CANDOS",
+    "fromId": 1356,
+    "to": "QUATRE BORNES",
+    "toId": 1352,
+    "routes": [
+      "37",
+      "122",
+      "219",
+      "122A",
+      "37A"
+    ]
+  },
+  {
+    "from": "CUREPIPE NORTH",
+    "fromId": 1493,
+    "to": "EAU COULEE",
+    "toId": 1378,
+    "routes": [
+      "37",
+      "179",
+      "122A",
+      "125A"
+    ]
+  },
+  {
+    "from": "BORD CASCADE",
+    "fromId": 21,
+    "to": "LA CHAPEL",
+    "toId": 1857,
+    "routes": [
+      "167",
+      "180",
+      "255",
+      "179B"
+    ]
+  },
+  {
+    "from": "CASE NOYALE",
+    "fromId": 1131,
+    "to": "PETITE RIVIERE NOIRE END",
+    "toId": 2078,
+    "routes": [
+      "5",
+      "243A"
+    ]
+  },
+  {
+    "from": "RIVIERE DU REMPART",
+    "fromId": 1391,
+    "to": "SCHOENFELD MANDAYAS HOUSE",
+    "toId": 2065,
+    "routes": [
+      "85",
+      "85A"
+    ]
+  },
+  {
+    "from": "RIVIERE DU REMPART",
+    "fromId": 1391,
+    "to": "HAUTE RIVE",
+    "toId": 1808,
+    "routes": [
+      "127",
+      "27A"
+    ]
+  },
+  {
+    "from": "VACOAS",
+    "fromId": 1277,
+    "to": "LA CAVERNE",
+    "toId": 1925,
+    "routes": [
+      "35"
+    ]
+  },
+  {
+    "from": "FLACQ",
+    "fromId": 1910,
+    "to": "BOULET ROUGE",
+    "toId": 1797,
+    "routes": [
+      "56"
+    ]
+  },
+  {
+    "from": "PORT LOUIS VICTORIA",
+    "fromId": 1489,
+    "to": "PORT LOUIS IMMIGRATION",
+    "toId": 1406,
+    "routes": [
+      "190"
+    ]
+  },
+  {
+    "from": "QUATRE BORNES",
+    "fromId": 1352,
+    "to": "GLAIUEL",
+    "toId": 54,
+    "routes": [
+      "195"
+    ]
+  }
+]

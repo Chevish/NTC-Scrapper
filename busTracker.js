@@ -4,9 +4,6 @@ import axios from 'axios';
 const MAX_RUNTIME_MS = 5 * 60 * 60 * 1000; // 5 hours
 const START_TIME = Date.now();
 
-const FROM_STAGE = 1505;
-const TO_STAGE = 1406;
-
 const NTCService = axios.create({
     baseURL: "http://108.181.34.86/ntcservice/api/NtcController",
     headers: {
@@ -37,7 +34,7 @@ const createPollingJob = (jobId, interval, pollingFn, args = []) => {
 const stopPollingJob = (jobId) => {
     if (!jobs.has(jobId)) {
         console.warn(`Job with id ${jobId} does not exist. Cannot stop non-existent job.`);
-        return;
+        return false;
     }
 
     console.log(`Job with id ${jobId} stopped.`);
@@ -45,6 +42,8 @@ const stopPollingJob = (jobId) => {
     const intervalId = jobs.get(jobId);
     clearInterval(intervalId);
     jobs.delete(jobId);
+
+    return true;
 }
 
 const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId) => {
@@ -65,12 +64,15 @@ const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId
                 response.data.ResponseData.VehicleStageDetails.at(-1).IsArrived ||
                 (
                     jobResult.get(jobId).coordinates.length >= 60 &&
-                    jobResult.get(jobId).coordinates.slice(-60).every(c => c.Latitude === jobResult.get(jobId).coordinates.slice(-60)[0].Latitude && c.Longitude === jobResult.get(jobId).coordinates.slice(-600)[0].Longitude)
+                    jobResult.get(jobId).coordinates.slice(-60).every(c => c.Latitude === jobResult.get(jobId).coordinates.slice(-60)[0].Latitude && c.Longitude === jobResult.get(jobId).coordinates.slice(-60)[0].Longitude)
                 )
             )
         )
     ) {
-        stopPollingJob(jobId);
+        const jobStopped = stopPollingJob(jobId);
+        if (!jobStopped) {
+            return;
+        }
 
         const { routeNumber, coordinates } = jobResult.get(jobId);
         if (!routesGeoloc[routeNumber]) {
@@ -132,8 +134,6 @@ const main = () => {
         routesGeoloc = JSON.parse(routesGeolocJSON);
     }
 
-    const args = [FROM_STAGE, TO_STAGE];
-    createPollingJob(`trackRoute-${FROM_STAGE}-${TO_STAGE}`, 5000, trackRoute, args);
     createPollingJob("max-timeout", 8 * 60 * 1000, () => {
         if (Date.now() - START_TIME > MAX_RUNTIME_MS) {
             console.log("Max script runtime reached. Exiting gracefully.");
@@ -145,6 +145,14 @@ const main = () => {
             console.log("Scrapper running...");
         }
     });
+
+    const coverageSetJSON = fs.readFileSync("data/minimumCoverageSet.json", "utf-8");
+    const coverageSet = JSON.parse(coverageSetJSON);
+
+    coverageSet.forEach(({ fromId, toId }) => {
+        const args = [fromId, toId];
+        createPollingJob(`trackRoute-${fromId}-${toId}`, 5000, trackRoute, args);
+    })
 }
 
 main();
