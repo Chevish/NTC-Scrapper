@@ -1,6 +1,9 @@
 import fs from 'fs';
 import axios from 'axios';
 
+const MAX_RUNTIME_MS = 5 * 60 * 60 * 1000; // 5 hours
+const START_TIME = Date.now();
+
 const FROM_STAGE = 1505;
 const TO_STAGE = 1406;
 
@@ -98,7 +101,6 @@ const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId
 }
 
 const trackRoute = async (FromStageId, ToStageId) => {
-    console.log(`Tracking ${FromStageId}-${ToStageId}`);
     const response = await NTCService.post("/CustomerGetAllVehiclesByStages", {
         RequestData: {
             FromStageId,
@@ -111,7 +113,7 @@ const trackRoute = async (FromStageId, ToStageId) => {
     }
 
     for (const { StartTime, RouteId, JourneyTypeId, TripNumber, VehicleId } of response.data.ResponseData) {
-        const startTimeDt = new Date(StartTime);
+        const startTimeDt = new Date(StartTime + "+04:00");
         const now = new Date();
 
         const diffMinutes = (now - startTimeDt) / (1000 * 60);
@@ -132,6 +134,17 @@ const main = () => {
 
     const args = [FROM_STAGE, TO_STAGE];
     createPollingJob(`trackRoute-${FROM_STAGE}-${TO_STAGE}`, 5000, trackRoute, args);
+    createPollingJob("max-timeout", 8 * 60 * 1000, () => {
+        if (Date.now() - START_TIME > MAX_RUNTIME_MS) {
+            console.log("Max script runtime reached. Exiting gracefully.");
+            jobs.keys().forEach(jobId => {
+                stopPollingJob(jobId);
+            });
+        }
+        else {
+            console.log("Scrapper running...");
+        }
+    });
 }
 
 main();
