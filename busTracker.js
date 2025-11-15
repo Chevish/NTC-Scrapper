@@ -1,8 +1,33 @@
 import fs from 'fs';
 import axios from 'axios';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
 
-const MAX_RUNTIME_MS = 5 * 60 * 60 * 1000; // 5 hours
+const argv = yargs(hideBin(process.argv))
+  .option("r", {
+        alias: "route-track-ms",
+        type: "number",
+        default: 5 * 1000 // 5 seconds 
+    })
+  .option("b", {
+        alias: "bus-track-ms",
+        type: "number",
+        default: 5 * 1000 // 5 seconds 
+    })
+  .option("m", {
+        alias: "max-runtime-ms",
+        type: "number",
+        default: 5 * 60 * 60 * 1000 // 5 hours 
+    })
+  .option("w", {
+        alias: "bus-start-window-ms",
+        type: "number",
+        default: 2 * 60 * 1000 // 2 minutes 
+    })
+  .argv;
+
 const START_TIME = Date.now();
+const LAST_10_MIN_COUNT = (10 * 60 * 1000) / argv.b;
 
 const NTCService = axios.create({
     baseURL: "http://108.181.34.86/ntcservice/api/NtcController",
@@ -63,8 +88,8 @@ const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId
             (
                 response.data.ResponseData.VehicleStageDetails.at(-1).IsArrived ||
                 (
-                    jobResult.get(jobId).coordinates.length >= 60 &&
-                    jobResult.get(jobId).coordinates.slice(-60).every(c => c.Latitude === jobResult.get(jobId).coordinates.slice(-60)[0].Latitude && c.Longitude === jobResult.get(jobId).coordinates.slice(-60)[0].Longitude)
+                    jobResult.get(jobId).coordinates.length >= LAST_10_MIN_COUNT &&
+                    jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT).every(([Latitude, Longitude]) => Latitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0][0] && Longitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0][1])
                 )
             )
         )
@@ -95,11 +120,7 @@ const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId
         jobResult.set(jobId, { routeNumber: RouteNumber, coordinates: [] });
     }
 
-    jobResult.get(jobId).coordinates.push({ Latitude: TripCurrentLatitude, Longitude: TripCurrentLongitude });
-
-    if (jobId === [...jobs.keys()][1]) {
-        console.log(jobId, { Latitude: TripCurrentLatitude, Longitude: TripCurrentLongitude });
-    }
+    jobResult.get(jobId).coordinates.push([TripCurrentLatitude, TripCurrentLongitude]);
 }
 
 const trackRoute = async (FromStageId, ToStageId) => {
@@ -118,11 +139,11 @@ const trackRoute = async (FromStageId, ToStageId) => {
         const startTimeDt = new Date(StartTime + "+04:00");
         const now = new Date();
 
-        const diffMinutes = (now - startTimeDt) / (1000 * 60);
-        if (diffMinutes <= 2 && diffMinutes >= 0) {
+        const diffMs = now - startTimeDt;
+        if (diffMs <= argv.w && diffMs >= 0) {
             const jobId = [RouteId, JourneyTypeId, TripNumber, StartTime].join();
             const args = [jobId, RouteId, JourneyTypeId, TripNumber, VehicleId];
-            createPollingJob(jobId, 5000, trackVehicle, args);
+            createPollingJob(jobId, argv.b, trackVehicle, args);
         }
     }
 
@@ -134,8 +155,8 @@ const main = () => {
         routesGeoloc = JSON.parse(routesGeolocJSON);
     }
 
-    createPollingJob("max-timeout", 8 * 60 * 1000, () => {
-        if (Date.now() - START_TIME > MAX_RUNTIME_MS) {
+    createPollingJob("max-timeout", Math.min(argv.m, 8 * 60 * 1000), () => {
+        if (Date.now() - START_TIME > argv.m) {
             console.log("Max script runtime reached. Exiting gracefully.");
             jobs.keys().forEach(jobId => {
                 stopPollingJob(jobId);
@@ -151,8 +172,8 @@ const main = () => {
 
     coverageSet.forEach(({ fromId, toId }) => {
         const args = [fromId, toId];
-        createPollingJob(`trackRoute-${fromId}-${toId}`, 5000, trackRoute, args);
-    })
+        createPollingJob(`trackRoute-${fromId}-${toId}`, argv.r, trackRoute, args);
+    });
 }
 
 main();
