@@ -50,7 +50,7 @@ const createPollingJob = (jobId, interval, pollingFn, args = []) => {
         return;
     }
 
-    console.log(`Job with id ${jobId} created.`);
+    console.log(`Job with id ${jobId} created. Args: ${args}`);
 
     const intervalId = setInterval(() => pollingFn(...args), interval);
     jobs.set(jobId, intervalId);
