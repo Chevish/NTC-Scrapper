@@ -95,7 +95,11 @@ const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId
         )
     ) {
         const jobStopped = stopPollingJob(jobId);
-        if (!jobStopped) {
+        if (!jobStopped || !jobResult.get(jobId)) {
+            if (!jobResult.get(jobId)) {
+                jobResult.delete(jobId);
+            }
+            
             return;
         }
 

@@ -1,0 +1,407 @@
+{
+    "default": {
+        "name": "ALL ROUTES OTHER THAN ROUTES 38, 38A, 79 AND 215",
+        "schedule": "Second Schedule",
+        "fares": [
+            {
+                "stage": 1,
+                "adult": 17,
+                "student": 12,
+                "child": 8
+            },
+            {
+                "stage": 2,
+                "adult": 24,
+                "student": 14,
+                "child": 12
+            },
+            {
+                "stage": 3,
+                "adult": 30,
+                "student": 20,
+                "child": 15
+            },
+            {
+                "stage": 4,
+                "adult": 30,
+                "student": 20,
+                "child": 15
+            },
+            {
+                "stage": 5,
+                "adult": 35,
+                "student": 20,
+                "child": 16
+            },
+            {
+                "stage": 6,
+                "adult": 35,
+                "student": 20,
+                "child": 16
+            },
+            {
+                "stage": 7,
+                "adult": 39,
+                "student": 20,
+                "child": 18
+            },
+            {
+                "stage": 8,
+                "adult": 39,
+                "student": 20,
+                "child": 18
+            },
+            {
+                "stage": 9,
+                "adult": 41,
+                "student": 20,
+                "child": 19
+            },
+            {
+                "stage": 10,
+                "adult": 41,
+                "student": 20,
+                "child": 19
+            },
+            {
+                "stage": 11,
+                "adult": 41,
+                "student": 20,
+                "child": 19
+            },
+            {
+                "stage": 12,
+                "adult": 41,
+                "student": 22,
+                "child": 19
+            },
+            {
+                "stage": 13,
+                "adult": 44,
+                "student": 22,
+                "child": 20
+            },
+            {
+                "stage": 14,
+                "adult": 44,
+                "student": 22,
+                "child": 20
+            },
+            {
+                "stage": 15,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 16,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 17,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 18,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 19,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 20,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 21,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 22,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 23,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 24,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 25,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 26,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 27,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 28,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 29,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": 30,
+                "adult": 44,
+                "student": 24,
+                "child": 20
+            },
+            {
+                "stage": "Max",
+                "adult": 47,
+                "student": 24,
+                "child": 21
+            }
+        ]
+    },
+    "38": {
+        "name": "Route 38 (La Louise - Ebene - La Louise)",
+        "schedule": "Third Schedule",
+        "fares": [
+            {
+                "stage": 1,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Junction Glaieuls/Sodnac Avenues"
+            },
+            {
+                "stage": 2,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Junction Hillcrest/Ibis Avenues"
+            },
+            {
+                "stage": 3,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Phoenix (Commercial Centre)"
+            },
+            {
+                "stage": 4,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Pellegrin (Trianon Shopping Park)"
+            },
+            {
+                "stage": 5,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Trianon (Margarine Industries Ltd)"
+            },
+            {
+                "stage": 6,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Ebene (Cyber Tower)"
+            },
+            {
+                "stage": 7,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Trianon (Margarine Industries Ltd)"
+            },
+            {
+                "stage": 8,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Pellegrin (Trianon Shopping Park)"
+            },
+            {
+                "stage": 9,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "La Louise"
+            }
+        ]
+    },
+    "38A": {
+        "name": "Route 38A (La Louise - Ebene - La Louise)",
+        "schedule": "Third Schedule",
+        "fares": [
+            {
+                "stage": 1,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Pellegrin (Trianon Shopping Park)"
+            },
+            {
+                "stage": 2,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Trianon (Margarine Industries Ltd)"
+            },
+            {
+                "stage": 3,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Ebene (Cyber Tower)"
+            },
+            {
+                "stage": 4,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Trianon (Margarine Industries Ltd)"
+            },
+            {
+                "stage": 5,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Pellegrin (Trianon Shopping Park)"
+            },
+            {
+                "stage": 6,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Phoenix (Commercial Centre)"
+            },
+            {
+                "stage": 7,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Junction Hillcrest/Ibis Avenues"
+            },
+            {
+                "stage": 8,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Candos (La Colline Commercial Centre)"
+            },
+            {
+                "stage": 9,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "La Louise"
+            }
+        ]
+    },
+    "79": {
+        "name": "Route 79 (Bois Chéri – Rose Belle)",
+        "schedule": "Third Schedule",
+        "fares": [
+            {
+                "stage": 1,
+                "adult": 17,
+                "student": 12,
+                "child": 8,
+                "name": "Jawaharlall Nehru Hospital"
+            },
+            {
+                "stage": 2,
+                "adult": 17,
+                "student": 12,
+                "child": 8,
+                "name": "Wireless Road (Beginning)"
+            },
+            {
+                "stage": 3,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Wireless Road (End)"
+            },
+            {
+                "stage": 4,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "La Flora (Shivala)"
+            },
+            {
+                "stage": 5,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Grand Bois (Government School)"
+            },
+            {
+                "stage": 6,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Grand Bois (Chapel)"
+            },
+            {
+                "stage": 7,
+                "adult": 26,
+                "student": 16,
+                "child": 13,
+                "name": "Bois Cheri"
+            }
+        ]
+    },
+    "215": {
+        "name": "Route 215 (Port Louis - Grand Bay via Trunk Road)",
+        "schedule": "Third Schedule",
+        "fares": [
+            {
+                "stage": 15,
+                "adult": 43,
+                "student": 33,
+                "child": 33,
+                "name": "Grand Bay (Police Station)"
+            },
+            {
+                "stage": 16,
+                "adult": 43,
+                "student": 33,
+                "child": 33,
+                "name": "Grand Bay (La Jonque Restaurant)"
+            }
+        ]
+    }
+}
