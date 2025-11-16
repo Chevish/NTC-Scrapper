@@ -71,13 +71,13 @@ const stopPollingJob = (jobId) => {
     return true;
 }
 
-const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId) => {
+const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId, startTime) => {
     const response = await NTCService.post("/CustomerGetLiveVehicleTrack", {
         RequestData: {
-            RouteId,
-            JourneyTypeId,
-            TripNumber,
-            VehicleId
+            RouteId: routeId,
+            JourneyTypeId: journeyTypeId,
+            TripNumber: tripNumber,
+            VehicleId: vehicleId
         }
     });
 
@@ -108,7 +108,7 @@ const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId
             routesGeoloc[routeNumber] = { Outbound: [], Inbound: [] };
         }
 
-        const direction = JourneyTypeId === 1 ? "Outbound" : "Inbound";
+        const direction = journeyTypeId === 1 ? "Outbound" : "Inbound";
         routesGeoloc[routeNumber][direction].push(coordinates);
 
         jobResult.delete(jobId);
@@ -119,12 +119,12 @@ const trackVehicle = async (jobId, RouteId, JourneyTypeId, TripNumber, VehicleId
         return;
     }
 
-    const { RouteNumber, TripCurrentLatitude, TripCurrentLongitude, VehicleStageDetails } = response.data.ResponseData;
+    const { RouteNumber, TripCurrentDateTime, TripCurrentLatitude, TripCurrentLongitude, VehicleStageDetails } = response.data.ResponseData;
     if (!jobResult.has(jobId)) {
-        jobResult.set(jobId, { routeNumber: RouteNumber, coordinates: [] });
+        jobResult.set(jobId, { routeNumber: RouteNumber, startTime, coordinates: [] });
     }
 
-    jobResult.get(jobId).coordinates.push([TripCurrentLatitude, TripCurrentLongitude]);
+    jobResult.get(jobId).coordinates.push({ timestamp: TripCurrentDateTime, latitude: TripCurrentLatitude, longitude: TripCurrentLongitude });
 }
 
 const trackRoute = async (FromStageId, ToStageId) => {
@@ -146,7 +146,7 @@ const trackRoute = async (FromStageId, ToStageId) => {
         const diffMs = now - startTimeDt;
         if (diffMs <= argv.w && diffMs >= 0) {
             const jobId = [RouteId, JourneyTypeId, TripNumber, StartTime].join();
-            const args = [jobId, RouteId, JourneyTypeId, TripNumber, VehicleId];
+            const args = [jobId, RouteId, JourneyTypeId, TripNumber, VehicleId, StartTime];
             createPollingJob(jobId, argv.b, trackVehicle, args);
         }
     }
