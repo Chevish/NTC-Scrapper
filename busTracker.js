@@ -27,7 +27,7 @@ const argv = yargs(hideBin(process.argv))
   .argv;
 
 const START_TIME = Date.now();
-const LAST_10_MIN_COUNT = (10 * 60 * 1000) / argv.b;
+const LAST_10_MIN_COUNT = Math.floor((10 * 60 * 1000) / argv.b);
 
 const NTCService = axios.create({
     baseURL: "http://108.181.34.86/ntcservice/api/NtcController",
@@ -89,7 +89,7 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
                 response.data.ResponseData.VehicleStageDetails.at(-1).IsArrived ||
                 (
                     jobResult.get(jobId).coordinates.length >= LAST_10_MIN_COUNT &&
-                    jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT).every(([Latitude, Longitude]) => Latitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0][0] && Longitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0][1])
+                    jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT).every(({ latitude, longitude }) => latitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0].latitude && longitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0].longitude)
                 )
             )
         )
@@ -103,13 +103,13 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
             return;
         }
 
-        const { routeNumber, coordinates } = jobResult.get(jobId);
+        const { routeNumber, numberOfBusStops, startTime, coordinates } = jobResult.get(jobId);
         if (!routesGeoloc[routeNumber]) {
-            routesGeoloc[routeNumber] = { Outbound: [], Inbound: [] };
+            routesGeoloc[routeNumber] = { numberOfBusStops, outbound: [], inbound: [] };
         }
 
-        const direction = journeyTypeId === 1 ? "Outbound" : "Inbound";
-        routesGeoloc[routeNumber][direction].push(coordinates);
+        const direction = journeyTypeId === 1 ? "outbound" : "inbound";
+        routesGeoloc[routeNumber][direction].push({ startTime, coordinates });
 
         jobResult.delete(jobId);
 
@@ -119,12 +119,13 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
         return;
     }
 
-    const { RouteNumber, TripCurrentDateTime, TripCurrentLatitude, TripCurrentLongitude, VehicleStageDetails } = response.data.ResponseData;
+    const { RouteNumber, TripCurrentDateTime, TripCurrentLatitude, TripCurrentLongitude, NumberOfBusStops, VehicleStageDetails, NumberOfSeatsAvailable, SeatingCapacity } = response.data.ResponseData;
     if (!jobResult.has(jobId)) {
-        jobResult.set(jobId, { routeNumber: RouteNumber, startTime, coordinates: [] });
+        jobResult.set(jobId, { routeNumber: RouteNumber, numberOfBusStops: NumberOfBusStops, startTime, coordinates: [] });
     }
 
-    jobResult.get(jobId).coordinates.push({ timestamp: TripCurrentDateTime, latitude: TripCurrentLatitude, longitude: TripCurrentLongitude });
+    const numberOfPassengers = SeatingCapacity - NumberOfSeatsAvailable;
+    jobResult.get(jobId).coordinates.push({ timestamp: TripCurrentDateTime, numberOfPassengers, latitude: TripCurrentLatitude, longitude: TripCurrentLongitude });
 }
 
 const trackRoute = async (FromStageId, ToStageId) => {
