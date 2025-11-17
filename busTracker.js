@@ -4,27 +4,27 @@ import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
 const argv = yargs(hideBin(process.argv))
-  .option("r", {
+    .option("r", {
         alias: "route-track-ms",
         type: "number",
         default: 5 * 1000 // 5 seconds 
     })
-  .option("b", {
+    .option("b", {
         alias: "bus-track-ms",
         type: "number",
         default: 5 * 1000 // 5 seconds 
     })
-  .option("m", {
+    .option("m", {
         alias: "max-runtime-ms",
         type: "number",
         default: 5 * 60 * 60 * 1000 // 5 hours 
     })
-  .option("w", {
+    .option("w", {
         alias: "bus-start-window-ms",
         type: "number",
         default: 2 * 60 * 1000 // 2 minutes 
     })
-  .argv;
+    .argv;
 
 const START_TIME = Date.now();
 const LAST_10_MIN_COUNT = Math.floor((10 * 60 * 1000) / argv.b);
@@ -98,7 +98,7 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
             if (!jobResult.get(jobId)) {
                 jobResult.delete(jobId);
             }
-            
+
             return;
         }
 
@@ -140,7 +140,7 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
     }
 
     const numberOfPassengers = SeatingCapacity - NumberOfSeatsAvailable;
-    jobResult.get(jobId).coordinates.push({ timestamp: TripCurrentDateTime, numberOfPassengers, latitude: TripCurrentLatitude, longitude: TripCurrentLongitude });
+    jobResult.get(jobId).coordinates.push({ timestamp: addHours(TripCurrentDateTime, 4), numberOfPassengers, latitude: TripCurrentLatitude, longitude: TripCurrentLongitude });
 }
 
 const trackRoute = async (FromStageId, ToStageId) => {
@@ -167,6 +167,21 @@ const trackRoute = async (FromStageId, ToStageId) => {
         }
     }
 
+}
+
+const addHours = (dtString, hours) => {
+    const date = new Date(dtString);
+    date.setHours(date.getHours() + hours);
+    const pad = n => String(n).padStart(2, "0");
+
+    return (
+        date.getFullYear() + "-" +
+        pad(date.getMonth() + 1) + "-" +
+        pad(date.getDate()) + "T" +
+        pad(date.getHours()) + ":" +
+        pad(date.getMinutes()) + ":" +
+        pad(date.getSeconds())
+    );
 }
 
 const main = () => {
