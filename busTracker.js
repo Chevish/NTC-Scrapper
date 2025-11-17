@@ -34,7 +34,6 @@ const NTCService = axios.create({
     headers: {
         "User-Agent": "Dart/3.3 (dart:io)",
         "Host": "108.181.34.86",
-        "Connection": "keep-alive",
         "Accept-Encoding": "gzip, deflate, br",
         "Content-Type": "application/json; charset=utf-8",
     },
@@ -104,14 +103,18 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
         }
 
         const { routeNumber, numberOfBusStops, startTime, coordinates } = jobResult.get(jobId);
+        jobResult.delete(jobId);
+
+        if (coordinates.length === 0) {
+            return;
+        }
+
         if (!routesGeoloc[routeNumber]) {
             routesGeoloc[routeNumber] = { numberOfBusStops, outbound: [], inbound: [] };
         }
 
         const direction = journeyTypeId === 1 ? "outbound" : "inbound";
         routesGeoloc[routeNumber][direction].push({ startTime, coordinates });
-
-        jobResult.delete(jobId);
 
         fs.writeFileSync("data/routesGeoloc.json", JSON.stringify(routesGeoloc, null, 2));
         console.log("File updated.", jobId);
@@ -122,6 +125,18 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
     const { RouteNumber, TripCurrentDateTime, TripCurrentLatitude, TripCurrentLongitude, NumberOfBusStops, VehicleStageDetails, NumberOfSeatsAvailable, SeatingCapacity } = response.data.ResponseData;
     if (!jobResult.has(jobId)) {
         jobResult.set(jobId, { routeNumber: RouteNumber, numberOfBusStops: NumberOfBusStops, startTime, coordinates: [] });
+    }
+
+    if (
+        TripCurrentDateTime === "1970-01-01T00:00:00" ||
+        (
+            jobResult.get(jobId).coordinates.length > 1 &&
+            jobResult.get(jobId).coordinates.at(-1).timestamp === TripCurrentDateTime &&
+            jobResult.get(jobId).coordinates.at(-1).latitude === TripCurrentLatitude &&
+            jobResult.get(jobId).coordinates.at(-1).longitude === TripCurrentLongitude
+        )
+    ) {
+        return;
     }
 
     const numberOfPassengers = SeatingCapacity - NumberOfSeatsAvailable;
