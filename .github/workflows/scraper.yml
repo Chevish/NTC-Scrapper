@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: Run API scraper
-        run: node busTracker.js -r ${{ vars.ROUTE_TRACK_MS }} -b ${{ vars.BUS_TRACK_MS }} -m ${{ vars.MAX_RUNTIME_MS }} -w ${{ vars.BUS_START_WINDOW_MS }}
+        run: node busTracker.js -r ${{ vars.ROUTE_TRACK_MS }} -b ${{ vars.BUS_TRACK_MS }} -m ${{ vars.MAX_RUNTIME_MS }} -w ${{ vars.BUS_START_WINDOW_MS }} -f ${{ vars.FROM_STAGE_ID }} -t ${{ vars.TO_STAGE_ID }}
     
       - name: Commit and Push changes
         run: |

@@ -24,6 +24,14 @@ const argv = yargs(hideBin(process.argv))
         type: "number",
         default: 2 * 60 * 1000 // 2 minutes 
     })
+    .option("f", {
+        alias: "from-id",
+        type: "number"
+    })
+    .option("t", {
+        alias: "to-id",
+        type: "number"
+    })
     .argv;
 
 const START_TIME = Date.now();
@@ -202,8 +210,18 @@ const main = () => {
         }
     });
 
+    if (argv.f && argv.t) {
+        console.log(`Tracking manual route ${argv.f} - ${argv.t}`);
+        const args = [argv.f, argv.t];
+        createPollingJob(`trackRoute-${argv.f}-${argv.t}`, argv.r, trackRoute, args);
+
+        return;
+    }
+
     const coverageSetJSON = fs.readFileSync("data/minimumCoverageSet.json", "utf-8");
     const coverageSet = JSON.parse(coverageSetJSON);
+
+    console.log(`No manual route specified. Tracking default minimum coverage routes.`);
 
     coverageSet.forEach(({ fromId, toId }) => {
         const args = [fromId, toId];
