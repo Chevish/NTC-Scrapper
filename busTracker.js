@@ -50,16 +50,15 @@ const NTCService = axios.create({
 
 const jobs = new Map();
 const jobResult = new Map();
-let routesGeoloc = {};
 
-const createPollingJob = (jobId, interval, pollingFn, args = []) => {
+const createPollingJob = (jobId, interval, pollingFn, args = {}) => {
     if (jobs.has(jobId)) {
         return;
     }
 
-    console.log(`Job with id ${jobId} created. Args: ${args}`);
+    console.log(`Job with id ${jobId} created.`);
 
-    const intervalId = setInterval(() => pollingFn(...args), interval);
+    const intervalId = setInterval(() => pollingFn({ jobId, data: args }), interval);
     jobs.set(jobId, intervalId);
 }
 
@@ -78,13 +77,15 @@ const stopPollingJob = (jobId) => {
     return true;
 }
 
-const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId, startTime) => {
+const trackVehicle = async (args) => {
+    const { jobId, data: { RouteId, JourneyTypeId, TripNumber, VehicleId, StartTime } } = args;
+
     const response = await NTCService.post("/CustomerGetLiveVehicleTrack", {
         RequestData: {
-            RouteId: routeId,
-            JourneyTypeId: journeyTypeId,
-            TripNumber: tripNumber,
-            VehicleId: vehicleId
+            RouteId,
+            JourneyTypeId,
+            TripNumber,
+            VehicleId
         }
     });
 
@@ -95,8 +96,8 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
             (
                 response.data.ResponseData.VehicleStageDetails.at(-1).IsArrived ||
                 (
-                    jobResult.get(jobId).coordinates.length >= LAST_10_MIN_COUNT &&
-                    jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT).every(({ latitude, longitude }) => latitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0].latitude && longitude === jobResult.get(jobId).coordinates.slice(-LAST_10_MIN_COUNT)[0].longitude)
+                    jobResult.get(jobId).snapshots.length >= LAST_10_MIN_COUNT &&
+                    jobResult.get(jobId).snapshots.slice(-LAST_10_MIN_COUNT).every(({ TripCurrentLatitude, TripCurrentLongitude }) => TripCurrentLatitude === jobResult.get(jobId).snapshots.slice(-LAST_10_MIN_COUNT)[0].TripCurrentLatitude && TripCurrentLongitude === jobResult.get(jobId).snapshots.slice(-LAST_10_MIN_COUNT)[0].TripCurrentLongitude)
                 )
             )
         )
@@ -110,48 +111,52 @@ const trackVehicle = async (jobId, routeId, journeyTypeId, tripNumber, vehicleId
             return;
         }
 
-        const { routeNumber, numberOfBusStops, startTime, coordinates } = jobResult.get(jobId);
+        const routeInfo = jobResult.get(jobId);
         jobResult.delete(jobId);
 
-        if (coordinates.length === 0) {
+        if (routeInfo.snapshots.length === 0) {
             return;
         }
 
-        if (!routesGeoloc[routeNumber]) {
-            routesGeoloc[routeNumber] = { numberOfBusStops, outbound: [], inbound: [] };
-        }
+        const direction = routeInfo.JourneyTypeId === 1 ? "outbound" : "inbound";
+        const filePath = `data/routes/${routeInfo.RouteNumber}/${direction}`;
 
-        const direction = journeyTypeId === 1 ? "outbound" : "inbound";
-        routesGeoloc[routeNumber][direction].push({ startTime, coordinates });
-
-        fs.writeFileSync("data/routesGeoloc.json", JSON.stringify(routesGeoloc, null, 2));
-        console.log("File updated.", jobId);
+        fs.mkdirSync(filePath, { recursive: true });
+        fs.writeFileSync(`${filePath}/${jobId}.json`, JSON.stringify(routeInfo));
+        console.log("File created.", jobId);
 
         return;
     }
 
-    const { RouteNumber, TripCurrentDateTime, TripCurrentLatitude, TripCurrentLongitude, NumberOfBusStops, VehicleStageDetails, NumberOfSeatsAvailable, SeatingCapacity } = response.data.ResponseData;
+    const { RouteNumber, RouteName, ServiceTypeId, ServiceTypeName, NumberOfBusStops, TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude, VehicleStageDetails, NumberOfSeatsAvailable, SeatingCapacity } = response.data.ResponseData;
     if (!jobResult.has(jobId)) {
-        jobResult.set(jobId, { routeNumber: RouteNumber, numberOfBusStops: NumberOfBusStops, startTime, coordinates: [] });
+        const routeInfo = {
+            ...omit(args.data, ["NumberOfPassenterInBus"]),
+            ...pick(response.data.ResponseData, ["RouteNumber", "RouteName", "ServiceTypeId", "ServiceTypeName", "NumberOfBusStops", "VehicleCode", "VehicleMake"]),
+            snapshots: []
+        };
+
+        jobResult.set(jobId, routeInfo);
     }
 
     if (
         TripCurrentDateTime === "1970-01-01T00:00:00" ||
         (
-            jobResult.get(jobId).coordinates.length > 1 &&
-            jobResult.get(jobId).coordinates.at(-1).timestamp === TripCurrentDateTime &&
-            jobResult.get(jobId).coordinates.at(-1).latitude === TripCurrentLatitude &&
-            jobResult.get(jobId).coordinates.at(-1).longitude === TripCurrentLongitude
+            jobResult.get(jobId).snapshots.length > 1 &&
+            jobResult.get(jobId).snapshots.at(-1).TripCurrentDateTime === TripCurrentDateTime &&
+            jobResult.get(jobId).snapshots.at(-1).TripCurrentLongitude === TripCurrentLongitude &&
+            jobResult.get(jobId).snapshots.at(-1).TripCurrentLatitude === TripCurrentLatitude
         )
     ) {
         return;
     }
 
-    const numberOfPassengers = SeatingCapacity - NumberOfSeatsAvailable;
-    jobResult.get(jobId).coordinates.push({ timestamp: addHours(TripCurrentDateTime, 4), numberOfPassengers, latitude: TripCurrentLatitude, longitude: TripCurrentLongitude });
+    jobResult.get(jobId).snapshots.push(pick(response.data.ResponseData, ["TripCurrentDateTime", "TripCurrentLongitude", "TripCurrentLatitude", "NumberOfSeatsAvailable", "CurrentLocation"]));
 }
 
-const trackRoute = async (FromStageId, ToStageId) => {
+const trackRoute = async (args) => {
+    const { jobId, data: { FromStageId, ToStageId } } = args;
+
     const response = await NTCService.post("/CustomerGetAllVehiclesByStages", {
         RequestData: {
             FromStageId,
@@ -163,15 +168,16 @@ const trackRoute = async (FromStageId, ToStageId) => {
         return;
     }
 
-    for (const { StartTime, RouteId, JourneyTypeId, TripNumber, VehicleId } of response.data.ResponseData) {
+    for (const routeData of response.data.ResponseData) {
+        const { StartTime, RouteId, JourneyTypeId, TripNumber, VehicleId } = routeData;
+
         const startTimeDt = new Date(StartTime + "+04:00");
         const now = new Date();
 
         const diffMs = now - startTimeDt;
         if (diffMs <= argv.w && diffMs >= 0) {
-            const jobId = [RouteId, JourneyTypeId, TripNumber, StartTime].join();
-            const args = [jobId, RouteId, JourneyTypeId, TripNumber, VehicleId, StartTime];
-            createPollingJob(jobId, argv.b, trackVehicle, args);
+            const jobId = [RouteId, JourneyTypeId, TripNumber, StartTime.replace(/:/g, '-')].join("_");
+            createPollingJob(jobId, argv.b, trackVehicle, routeData);
         }
     }
 
@@ -192,12 +198,27 @@ const addHours = (dtString, hours) => {
     );
 }
 
-const main = () => {
-    if (fs.existsSync("data/routesGeoloc.json")) {
-        const routesGeolocJSON = fs.readFileSync("data/routesGeoloc.json", "utf-8");
-        routesGeoloc = JSON.parse(routesGeolocJSON);
-    }
+const pick = (obj, keys) => {
+    return keys.reduce((result, key) => {
+        if (key in obj) {
+            result[key] = obj[key];
+        }
 
+        return result;
+    }, {});
+}
+
+const omit = (obj, keys) => {
+    return Object.keys(obj).reduce((result, key) => {
+        if (!keys.includes(key)) {
+            result[key] = obj[key];
+        }
+
+        return result;
+    }, {});
+}
+
+const main = () => {
     createPollingJob("max-timeout", Math.min(argv.m, 8 * 60 * 1000), () => {
         if (Date.now() - START_TIME > argv.m) {
             console.log("Max script runtime reached. Exiting gracefully.");
@@ -212,7 +233,7 @@ const main = () => {
 
     if (argv.f && argv.t) {
         console.log(`Tracking manual route ${argv.f} - ${argv.t}`);
-        const args = [argv.f, argv.t];
+        const args = { FromStageId: argv.f, ToStageId: argv.t };
         createPollingJob(`trackRoute-${argv.f}-${argv.t}`, argv.r, trackRoute, args);
 
         return;
@@ -224,7 +245,7 @@ const main = () => {
     console.log(`No manual route specified. Tracking default minimum coverage routes.`);
 
     coverageSet.forEach(({ fromId, toId }) => {
-        const args = [fromId, toId];
+        const args = { FromStageId: fromId, ToStageId: toId };
         createPollingJob(`trackRoute-${fromId}-${toId}`, argv.r, trackRoute, args);
     });
 }
