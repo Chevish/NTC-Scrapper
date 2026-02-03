@@ -128,7 +128,6 @@ const trackVehicle = async (args) => {
         return;
     }
 
-    const { RouteNumber, RouteName, ServiceTypeId, ServiceTypeName, NumberOfBusStops, TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude, VehicleStageDetails, NumberOfSeatsAvailable, SeatingCapacity } = response.data.ResponseData;
     if (!jobResult.has(jobId)) {
         const routeInfo = {
             ...omit(args.data, ["NumberOfPassenterInBus"]),
@@ -139,6 +138,7 @@ const trackVehicle = async (args) => {
         jobResult.set(jobId, routeInfo);
     }
 
+    const { TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude } = response.data.ResponseData;
     if (
         TripCurrentDateTime === "1970-01-01T00:00:00" ||
         (
