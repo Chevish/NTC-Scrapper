@@ -128,6 +128,7 @@ const trackVehicle = async (args) => {
         return;
     }
 
+    response.data.ResponseData.TripCurrentDateTime = addHours(response.data.ResponseData.TripCurrentDateTime, 4);
     if (!jobResult.has(jobId)) {
         const routeInfo = {
             ...omit(args.data, ["NumberOfPassenterInBus"]),
@@ -140,7 +141,7 @@ const trackVehicle = async (args) => {
 
     const { TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude } = response.data.ResponseData;
     if (
-        TripCurrentDateTime === "1970-01-01T00:00:00" ||
+        TripCurrentDateTime === addHours("1970-01-01T00:00:00", 4) ||
         (
             jobResult.get(jobId).snapshots.length > 1 &&
             jobResult.get(jobId).snapshots.at(-1).TripCurrentDateTime === TripCurrentDateTime &&
