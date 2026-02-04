@@ -131,7 +131,7 @@ const trackVehicle = async (args) => {
     response.data.ResponseData.TripCurrentDateTime = addHours(response.data.ResponseData.TripCurrentDateTime, 4);
     if (!jobResult.has(jobId)) {
         const routeInfo = {
-            ...omit(args.data, ["NumberOfPassenterInBus"]),
+            ...omit(args.data, ["ExpectedTimeAtCurrentLocation", "ExpectedTimeAtDestinationLocation", "NumberOfPassenterInBus"]),
             ...pick(response.data.ResponseData, ["RouteNumber", "RouteName", "ServiceTypeId", "ServiceTypeName", "NumberOfBusStops", "VehicleCode", "VehicleMake"]),
             snapshots: []
         };
