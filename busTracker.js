@@ -176,6 +176,7 @@ const trackRoute = async (args) => {
         const now = new Date();
 
         const diffMs = now - startTimeDt;
+        console.log(now, startTimeDt, argv.w, diffMs);
         if (diffMs <= argv.w && diffMs >= 0) {
             const jobId = [RouteId, JourneyTypeId, TripNumber, StartTime.replace(/:/g, '-')].join("_");
             createPollingJob(jobId, argv.b, trackVehicle, routeData);
