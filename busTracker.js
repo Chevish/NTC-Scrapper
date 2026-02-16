@@ -130,16 +130,27 @@ const trackVehicle = async (args) => {
 
     response.data.ResponseData.TripCurrentDateTime = addHours(response.data.ResponseData.TripCurrentDateTime, 4);
     if (!jobResult.has(jobId)) {
+        const stages = response.data.ResponseData.VehicleStageDetails.map(stage => {
+            return {
+                ...pick(["StageSLNumber", "StageId", "StageName", "StageCode"]),
+                ActualDateTime: null,
+                Longitude: null,
+                Latitude: null,
+                IsArrived: false
+            }
+        });
+
         const routeInfo = {
             ...omit(args.data, ["ExpectedTimeAtCurrentLocation", "ExpectedTimeAtDestinationLocation", "NumberOfPassenterInBus"]),
             ...pick(response.data.ResponseData, ["RouteNumber", "RouteName", "ServiceTypeId", "ServiceTypeName", "NumberOfBusStops", "VehicleCode", "VehicleMake"]),
-            snapshots: []
+            snapshots: [],
+            stages
         };
 
         jobResult.set(jobId, routeInfo);
     }
 
-    const { TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude } = response.data.ResponseData;
+    const { TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude, VehicleStageDetails } = response.data.ResponseData;
     if (
         TripCurrentDateTime === addHours("1970-01-01T00:00:00", 4) ||
         (
@@ -150,6 +161,17 @@ const trackVehicle = async (args) => {
         )
     ) {
         return;
+    }
+
+    const currentStage = VehicleStageDetails.findLast(stage => stage.IsArrived);
+    if (currentStage) {
+        const stageToUpdate = jobResult.get(jobId).stages.find(stage => stage.StageId === currentStage.StageId);
+        if (stageToUpdate && !stageToUpdate.IsArrived) {
+            stageToUpdate.ActualDateTime = TripCurrentDateTime;
+            stageToUpdate.Longitude = TripCurrentLongitude;
+            stageToUpdate.Latitude = TripCurrentLatitude;
+            stageToUpdate.IsArrived = true;
+        }
     }
 
     jobResult.get(jobId).snapshots.push(pick(response.data.ResponseData, ["TripCurrentDateTime", "TripCurrentLongitude", "TripCurrentLatitude", "NumberOfSeatsAvailable", "CurrentLocation"]));
