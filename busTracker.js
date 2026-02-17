@@ -132,7 +132,7 @@ const trackVehicle = async (args) => {
     if (!jobResult.has(jobId)) {
         const stages = response.data.ResponseData.VehicleStageDetails.map(stage => {
             return {
-                ...pick(["StageSLNumber", "StageId", "StageName", "StageCode"]),
+                ...pick(stage, ["StageSLNumber", "StageId", "StageName", "StageCode"]),
                 ActualDateTime: null,
                 Longitude: null,
                 Latitude: null,
