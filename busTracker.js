@@ -7,7 +7,7 @@ const argv = yargs(hideBin(process.argv))
     .option("r", {
         alias: "route-track-ms",
         type: "number",
-        default: 5 * 1000 // 5 seconds 
+        default: 10 * 1000 // 10 seconds 
     })
     .option("b", {
         alias: "bus-track-ms",
@@ -78,23 +78,40 @@ const stopPollingJob = (jobId) => {
 }
 
 const trackVehicle = async (args) => {
-    const { jobId, data: { RouteId, JourneyTypeId, TripNumber, VehicleId, StartTime } } = args;
+    const { jobId, data: { RouteId, JourneyTypeId, TripNumber, VehicleId, StartTime, FromStageId, ToStageId } } = args;
 
-    const response = await NTCService.post("/CustomerGetLiveVehicleTrack", {
-        RequestData: {
-            RouteId,
-            JourneyTypeId,
-            TripNumber,
-            VehicleId
-        }
-    });
+    let routeResponse;
+    let vehicleResponse;
+
+    try {
+        routeResponse = await NTCService.post("/CustomerGetAllVehiclesByStages", {
+            RequestData: {
+                FromStageId,
+                ToStageId
+            }
+        });
+
+        vehicleResponse = await NTCService.post("/CustomerGetLiveVehicleTrack", {
+            RequestData: {
+                RouteId,
+                JourneyTypeId,
+                TripNumber,
+                VehicleId
+            }
+        });
+    }
+    catch (error) {
+        console.error(error);
+    }
 
     if (
-        !response.data.ResponseData ||
+        !vehicleResponse?.data?.ResponseData ||
+        !routeResponse?.data?.ResponseData ||
+        !routeResponse.data.ResponseData.some((routeData) => jobId === [routeData.RouteId, routeData.JourneyTypeId, routeData.TripNumber, routeData.VehicleId, routeData.StartTime.replace(/:/g, '-')].join("_")) ||
         (
             jobResult.has(jobId) &&
             (
-                response.data.ResponseData.VehicleStageDetails.at(-1).IsArrived ||
+                vehicleResponse.data.ResponseData.VehicleStageDetails.at(-1).IsArrived ||
                 (
                     jobResult.get(jobId).snapshots.length >= LAST_10_MIN_COUNT &&
                     jobResult.get(jobId).snapshots.slice(-LAST_10_MIN_COUNT).every(({ TripCurrentLatitude, TripCurrentLongitude }) => TripCurrentLatitude === jobResult.get(jobId).snapshots.slice(-LAST_10_MIN_COUNT)[0].TripCurrentLatitude && TripCurrentLongitude === jobResult.get(jobId).snapshots.slice(-LAST_10_MIN_COUNT)[0].TripCurrentLongitude)
@@ -128,9 +145,9 @@ const trackVehicle = async (args) => {
         return;
     }
 
-    response.data.ResponseData.TripCurrentDateTime = addHours(response.data.ResponseData.TripCurrentDateTime, 4);
+    vehicleResponse.data.ResponseData.TripCurrentDateTime = addHours(vehicleResponse.data.ResponseData.TripCurrentDateTime, 4);
     if (!jobResult.has(jobId)) {
-        const stages = response.data.ResponseData.VehicleStageDetails.map(stage => {
+        const stages = vehicleResponse.data.ResponseData.VehicleStageDetails.map(stage => {
             return {
                 ...pick(stage, ["StageSLNumber", "StageId", "StageName", "StageCode"]),
                 ActualDateTime: null,
@@ -150,7 +167,7 @@ const trackVehicle = async (args) => {
         jobResult.set(jobId, routeInfo);
     }
 
-    const { TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude, VehicleStageDetails } = response.data.ResponseData;
+    const { TripCurrentDateTime, TripCurrentLongitude, TripCurrentLatitude, VehicleStageDetails } = vehicleResponse.data.ResponseData;
     if (
         TripCurrentDateTime === addHours("1970-01-01T00:00:00", 4) ||
         (
@@ -174,20 +191,26 @@ const trackVehicle = async (args) => {
         }
     }
 
-    jobResult.get(jobId).snapshots.push(pick(response.data.ResponseData, ["TripCurrentDateTime", "TripCurrentLongitude", "TripCurrentLatitude", "NumberOfSeatsAvailable", "CurrentLocation"]));
+    jobResult.get(jobId).snapshots.push(pick(vehicleResponse.data.ResponseData, ["TripCurrentDateTime", "TripCurrentLongitude", "TripCurrentLatitude", "NumberOfSeatsAvailable", "CurrentLocation"]));
 }
 
 const trackRoute = async (args) => {
     const { jobId, data: { FromStageId, ToStageId } } = args;
 
-    const response = await NTCService.post("/CustomerGetAllVehiclesByStages", {
-        RequestData: {
-            FromStageId,
-            ToStageId
-        }
-    });
+    let response;
+    try {
+        response = await NTCService.post("/CustomerGetAllVehiclesByStages", {
+            RequestData: {
+                FromStageId,
+                ToStageId
+            }
+        });
+    }
+    catch (error) {
+        console.error(error);
+    }
 
-    if (!response.data.ResponseData) {
+    if (!response?.data?.ResponseData) {
         return;
     }
 
@@ -200,7 +223,7 @@ const trackRoute = async (args) => {
         const diffMs = now - startTimeDt;
         if (diffMs <= argv.w && diffMs >= 0) {
             const jobId = [RouteId, JourneyTypeId, TripNumber, VehicleId, StartTime.replace(/:/g, '-')].join("_");
-            createPollingJob(jobId, argv.b, trackVehicle, routeData);
+            createPollingJob(jobId, argv.b, trackVehicle, { ...routeData, FromStageId, ToStageId });
         }
     }
 
