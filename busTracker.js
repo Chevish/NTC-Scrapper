@@ -159,7 +159,7 @@ const trackVehicle = async (args) => {
 
         const routeInfo = {
             ...omit(args.data, ["ExpectedTimeAtCurrentLocation", "ExpectedTimeAtDestinationLocation", "NumberOfPassenterInBus"]),
-            ...pick(response.data.ResponseData, ["RouteNumber", "RouteName", "ServiceTypeId", "ServiceTypeName", "NumberOfBusStops", "VehicleCode", "VehicleMake"]),
+            ...pick(vehicleResponse.data.ResponseData, ["RouteNumber", "RouteName", "ServiceTypeId", "ServiceTypeName", "NumberOfBusStops", "VehicleCode", "VehicleMake"]),
             snapshots: [],
             stages
         };
