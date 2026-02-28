@@ -38,7 +38,7 @@ jobs:
 
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
-          git pull origin master
           git add -A
           git commit -m "Update scraped data - $TIMESTAMP" || echo "Nothing to commit"
+          git pull --rebase -X theirs origin master
           git push origin master
