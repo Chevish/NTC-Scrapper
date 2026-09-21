@@ -1,412 +1,764 @@
-[
-  {
-    "from": "VENUS",
-    "fromId": 1527,
-    "to": "GRNW",
-    "toId": 1564,
-    "routes": [
-      "3",
-      "52",
-      "69",
-      "102",
-      "119",
-      "123",
-      "156",
-      "170",
-      "203",
-      "170A",
-      "3A",
-      "3B",
-      "3C",
-      "3D",
-      "52A",
-      "52B"
-    ]
-  },
-  {
-    "from": "NOUVELE FRANCE PONT COLEVILLE",
-    "fromId": 1404,
-    "to": "BEAU CLIMAT",
-    "toId": 1409,
-    "routes": [
-      "6",
-      "34",
-      "61",
-      "129",
-      "133",
-      "168",
-      "197",
-      "245",
-      "246",
-      "133C",
-      "197A",
-      "61A",
-      "6A",
-      "6B"
-    ]
-  },
-  {
-    "from": "CUREPIPE NORTH",
-    "fromId": 1493,
-    "to": "DARNE",
-    "toId": 1812,
-    "routes": [
-      "122",
-      "125",
-      "134",
-      "153",
-      "164",
-      "165",
-      "165A",
-      "165B",
-      "165D",
-      "179A",
-      "37A"
-    ]
-  },
-  {
-    "from": "MONT LOISIR SE",
-    "fromId": 1389,
-    "to": "RIVIERE DU REMPART",
-    "toId": 1391,
-    "routes": [
-      "24",
-      "27",
-      "127",
-      "222",
-      "226",
-      "222A",
-      "226A",
-      "226B"
-    ]
-  },
-  {
-    "from": "CANDOS",
-    "fromId": 1356,
-    "to": "MODERN",
-    "toId": 1274,
-    "routes": [
-      "3",
-      "4",
-      "68",
-      "163",
-      "170",
-      "242",
-      "170A",
-      "242A",
-      "3A",
-      "3B",
-      "3D",
-      "4A",
-      "68A"
-    ]
-  },
-  {
-    "from": "PAMPLEMOUSSE",
-    "fromId": 192,
-    "to": "BEAU PLAN",
-    "toId": 1683,
-    "routes": [
-      "63",
-      "84",
-      "85",
-      "86",
-      "63A",
-      "84A"
-    ]
-  },
-  {
-    "from": "MODERN",
-    "fromId": 1274,
-    "to": "CANDOS",
-    "toId": 1356,
-    "routes": [
-      "37",
-      "122",
-      "153",
-      "179",
-      "122A",
-      "179A",
-      "179B",
-      "37A",
-      "3E"
-    ]
-  },
-  {
-    "from": "PONT FER",
-    "fromId": 1921,
-    "to": "SHOPRITE",
-    "toId": 316,
-    "routes": [
-      "67",
-      "164",
-      "165",
-      "167",
-      "255",
-      "165D",
-      "67A"
-    ]
-  },
-  {
-    "from": "FOREST SIDE POST OFFICE",
-    "fromId": 1287,
-    "to": "XVI MILLE",
-    "toId": 1382,
-    "routes": [
-      "6",
-      "14",
-      "34",
-      "61",
-      "129",
-      "133",
-      "137",
-      "168",
-      "133C",
+{
+  "summary": {
+    "routes": 101,
+    "pairs": 20,
+    "proven_optimal": true,
+    "lower_bound_certificate_routes": [
+      "125A",
       "14A",
-      "61A",
-      "6A",
-      "6B"
-    ]
-  },
-  {
-    "from": "REDUIT",
-    "fromId": 1579,
-    "to": "TRIANON",
-    "toId": 1626,
-    "routes": [
-      "141",
-      "163",
-      "188",
-      "197",
-      "245",
-      "246",
-      "179C",
-      "197A"
-    ]
-  },
-  {
-    "from": "TERRE ROUGE",
-    "fromId": 1427,
-    "to": "MELLE LAURE",
-    "toId": 1565,
-    "routes": [
-      "23",
-      "24",
-      "27",
-      "127",
-      "23A",
-      "23B"
-    ]
-  },
-  {
-    "from": "SOUILLAC",
-    "fromId": 1503,
-    "to": "SURINAM MOSQUE",
-    "toId": 1296,
-    "routes": [
-      "6",
-      "7",
-      "8",
-      "129",
-      "133",
-      "197",
-      "133C",
-      "197A",
-      "6A",
-      "6B"
-    ]
-  },
-  {
-    "from": "BAMBOUS GAMMA",
-    "fromId": 1742,
-    "to": "BAMBOUS JUNCTION CAPRICORN",
-    "toId": 1743,
-    "routes": [
-      "5",
-      "52",
-      "119",
-      "123",
-      "243",
-      "52B"
-    ]
-  },
-  {
-    "from": "LA FLORA",
-    "fromId": 1550,
-    "to": "GRAND BOIS GOVT SCHOOL",
-    "toId": 2024,
-    "routes": [
-      "34",
-      "60",
-      "79",
-      "168",
-      "246"
-    ]
-  },
-  {
-    "from": "CANTIN",
-    "fromId": 1907,
-    "to": "BHAGAT",
-    "toId": 1855,
-    "routes": [
-      "134",
-      "141",
-      "66B",
-      "66C"
-    ]
-  },
-  {
-    "from": "CITE ST JEAN",
-    "fromId": 1213,
-    "to": "LA LOUISE",
-    "toId": 1270,
-    "routes": [
-      "3",
-      "69",
-      "163",
-      "170",
-      "242",
       "156A",
-      "170A",
-      "179C",
-      "242A",
-      "3A",
-      "3B",
-      "3C",
-      "3D"
-    ]
-  },
-  {
-    "from": "BAMBOUS JUNCTION CAPRICORN",
-    "fromId": 1743,
-    "to": "DRAGON STORE",
-    "toId": 2426,
-    "routes": [
-      "119",
-      "123",
-      "179",
-      "189",
-      "179A",
-      "179B",
-      "179C"
-    ]
-  },
-  {
-    "from": "VACOAS",
-    "fromId": 1277,
-    "to": "MODERN",
-    "toId": 1274,
-    "routes": [
-      "153",
+      "164",
       "166",
-      "179",
-      "122A",
-      "179A",
-      "37A",
-      "3E"
-    ]
+      "188",
+      "189",
+      "190",
+      "195",
+      "226B",
+      "243A",
+      "27A",
+      "35",
+      "52A",
+      "56",
+      "66B",
+      "79",
+      "8",
+      "85A",
+      "86"
+    ],
+    "note": "Each pair {origin,destination} lies on every route listed; destination is in relatedStages[origin]."
   },
-  {
-    "from": "CANDOS",
-    "fromId": 1356,
-    "to": "QUATRE BORNES",
-    "toId": 1352,
-    "routes": [
-      "37",
-      "122",
-      "219",
-      "122A",
-      "37A"
-    ]
-  },
-  {
-    "from": "CUREPIPE NORTH",
-    "fromId": 1493,
-    "to": "EAU COULEE",
-    "toId": 1378,
-    "routes": [
-      "37",
-      "179",
-      "122A",
-      "125A"
-    ]
-  },
-  {
-    "from": "BORD CASCADE",
-    "fromId": 21,
-    "to": "LA CHAPEL",
-    "toId": 1857,
-    "routes": [
-      "167",
-      "180",
-      "255",
-      "179B"
-    ]
-  },
-  {
-    "from": "CASE NOYALE",
-    "fromId": 1131,
-    "to": "PETITE RIVIERE NOIRE END",
-    "toId": 2078,
-    "routes": [
-      "5",
-      "243A"
-    ]
-  },
-  {
-    "from": "RIVIERE DU REMPART",
-    "fromId": 1391,
-    "to": "SCHOENFELD MANDAYAS HOUSE",
-    "toId": 2065,
-    "routes": [
-      "85",
-      "85A"
-    ]
-  },
-  {
-    "from": "RIVIERE DU REMPART",
-    "fromId": 1391,
-    "to": "HAUTE RIVE",
-    "toId": 1808,
-    "routes": [
-      "127",
-      "27A"
-    ]
-  },
-  {
-    "from": "VACOAS",
-    "fromId": 1277,
-    "to": "LA CAVERNE",
-    "toId": 1925,
-    "routes": [
-      "35"
-    ]
-  },
-  {
-    "from": "FLACQ",
-    "fromId": 1910,
-    "to": "BOULET ROUGE",
-    "toId": 1797,
-    "routes": [
-      "56"
-    ]
-  },
-  {
-    "from": "PORT LOUIS VICTORIA",
-    "fromId": 1489,
-    "to": "PORT LOUIS IMMIGRATION",
-    "toId": 1406,
-    "routes": [
-      "190"
-    ]
-  },
-  {
-    "from": "QUATRE BORNES",
-    "fromId": 1352,
-    "to": "GLAIUEL",
-    "toId": 54,
-    "routes": [
-      "195"
-    ]
+  "pairs": [
+    {
+      "origin": 1527,
+      "origin_name": "VENUS",
+      "destination": 1564,
+      "destination_name": "GRNW",
+      "routes_covered": [
+        "102",
+        "119",
+        "123",
+        "156",
+        "170",
+        "170A",
+        "203",
+        "3",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "52",
+        "52A",
+        "52B",
+        "69"
+      ],
+      "n_routes": 16
+    },
+    {
+      "origin": 1493,
+      "origin_name": "CUREPIPE NORTH",
+      "destination": 1812,
+      "destination_name": "DARNE",
+      "routes_covered": [
+        "102",
+        "122",
+        "125",
+        "134",
+        "153",
+        "164",
+        "165",
+        "165A",
+        "165B",
+        "165D",
+        "170A",
+        "179A",
+        "242A",
+        "37A",
+        "4A",
+        "68A"
+      ],
+      "n_routes": 16
+    },
+    {
+      "origin": 1548,
+      "origin_name": "ROSE HILL",
+      "destination": 1617,
+      "destination_name": "BELLE ROSE PEPSI",
+      "routes_covered": [
+        "102",
+        "156A",
+        "170",
+        "170A",
+        "242",
+        "242A",
+        "3",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "3E",
+        "69"
+      ],
+      "n_routes": 13
+    },
+    {
+      "origin": 1287,
+      "origin_name": "FOREST SIDE POST OFFICE",
+      "destination": 1382,
+      "destination_name": "XVI MILLE",
+      "routes_covered": [
+        "129",
+        "133",
+        "133C",
+        "137",
+        "14",
+        "14A",
+        "168",
+        "34",
+        "6",
+        "61",
+        "61A",
+        "6A",
+        "6B"
+      ],
+      "n_routes": 13
+    },
+    {
+      "origin": 1579,
+      "origin_name": "REDUIT",
+      "destination": 1626,
+      "destination_name": "TRIANON",
+      "routes_covered": [
+        "141",
+        "153",
+        "163",
+        "165A",
+        "165B",
+        "167",
+        "179C",
+        "188",
+        "197",
+        "197A",
+        "245",
+        "246",
+        "67"
+      ],
+      "n_routes": 13
+    },
+    {
+      "origin": 1389,
+      "origin_name": "MONT LOISIR SE",
+      "destination": 1391,
+      "destination_name": "RIVIERE DU REMPART",
+      "routes_covered": [
+        "127",
+        "222",
+        "222A",
+        "226",
+        "226A",
+        "226B",
+        "24",
+        "27",
+        "63",
+        "63A",
+        "84",
+        "84A"
+      ],
+      "n_routes": 12
+    },
+    {
+      "origin": 114,
+      "origin_name": "SURINAM LOTUS",
+      "destination": 1296,
+      "destination_name": "SURINAM MOSQUE",
+      "routes_covered": [
+        "129",
+        "133",
+        "133C",
+        "197",
+        "197A",
+        "6",
+        "67",
+        "67A",
+        "6A",
+        "7",
+        "8"
+      ],
+      "n_routes": 11
+    },
+    {
+      "origin": 1368,
+      "origin_name": "CLARISSE",
+      "destination": 1493,
+      "destination_name": "CUREPIPE NORTH",
+      "routes_covered": [
+        "102",
+        "122A",
+        "125A",
+        "170",
+        "179",
+        "242",
+        "37",
+        "4",
+        "68"
+      ],
+      "n_routes": 9
+    },
+    {
+      "origin": 1088,
+      "origin_name": "FLIC EN FLAC JUNCTION",
+      "destination": 1743,
+      "destination_name": "BAMBOUS JUNCTION CAPRICORN",
+      "routes_covered": [
+        "119",
+        "123",
+        "179",
+        "179A",
+        "179B",
+        "179C",
+        "189",
+        "5"
+      ],
+      "n_routes": 8
+    },
+    {
+      "origin": 1391,
+      "origin_name": "RIVIERE DU REMPART",
+      "destination": 1574,
+      "destination_name": "THE MOUNT",
+      "routes_covered": [
+        "127",
+        "23",
+        "23A",
+        "23B",
+        "24",
+        "63",
+        "63A",
+        "86"
+      ],
+      "n_routes": 8
+    },
+    {
+      "origin": 1855,
+      "origin_name": "BHAGAT",
+      "destination": 1907,
+      "destination_name": "CANTIN",
+      "routes_covered": [
+        "134",
+        "141",
+        "167",
+        "180",
+        "255",
+        "66B",
+        "66C"
+      ],
+      "n_routes": 7
+    },
+    {
+      "origin": 1550,
+      "origin_name": "LA FLORA",
+      "destination": 1783,
+      "destination_name": "BOIS CHERIE",
+      "routes_covered": [
+        "168",
+        "246",
+        "34",
+        "60",
+        "79"
+      ],
+      "n_routes": 5
+    },
+    {
+      "origin": 249,
+      "origin_name": "ROCHE NOIR JUNCTION",
+      "destination": 1391,
+      "destination_name": "RIVIERE DU REMPART",
+      "routes_covered": [
+        "127",
+        "27A",
+        "63",
+        "63A"
+      ],
+      "n_routes": 4
+    },
+    {
+      "origin": 274,
+      "origin_name": "GRANDE RIVIERE NOIR 3 BRAS STORE",
+      "destination": 1129,
+      "destination_name": "PETITE RIVIERE NOIRE END",
+      "routes_covered": [
+        "243",
+        "243A",
+        "5"
+      ],
+      "n_routes": 3
+    },
+    {
+      "origin": 1391,
+      "origin_name": "RIVIERE DU REMPART",
+      "destination": 2065,
+      "destination_name": "SCHOENFELD MANDAYAS HOUSE",
+      "routes_covered": [
+        "85",
+        "85A"
+      ],
+      "n_routes": 2
+    },
+    {
+      "origin": 1352,
+      "origin_name": "QUATRE BORNES",
+      "destination": 1779,
+      "destination_name": "JUMBO",
+      "routes_covered": [
+        "195",
+        "219"
+      ],
+      "n_routes": 2
+    },
+    {
+      "origin": 1450,
+      "origin_name": "LA CAVERNE BUS STOP",
+      "destination": 1952,
+      "destination_name": "HOLLYROOD",
+      "routes_covered": [
+        "35"
+      ],
+      "n_routes": 1
+    },
+    {
+      "origin": 1187,
+      "origin_name": "ECROUIGNARD END",
+      "destination": 1797,
+      "destination_name": "BOULET ROUGE",
+      "routes_covered": [
+        "56"
+      ],
+      "n_routes": 1
+    },
+    {
+      "origin": 1274,
+      "origin_name": "MODERN",
+      "destination": 1450,
+      "destination_name": "LA CAVERNE BUS STOP",
+      "routes_covered": [
+        "166"
+      ],
+      "n_routes": 1
+    },
+    {
+      "origin": 1406,
+      "origin_name": "PORT LOUIS IMMIGRATION1",
+      "destination": 1489,
+      "destination_name": "PORT LOUIS VICTORIA",
+      "routes_covered": [
+        "190"
+      ],
+      "n_routes": 1
+    }
+  ],
+  "route_to_pair": {
+    "102": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "119": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "122": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "122A": {
+      "origin": 1368,
+      "destination": 1493
+    },
+    "123": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "125": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "125A": {
+      "origin": 1368,
+      "destination": 1493
+    },
+    "127": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "129": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "133": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "133C": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "134": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "137": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "14": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "141": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "14A": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "153": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "156": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "156A": {
+      "origin": 1548,
+      "destination": 1617
+    },
+    "163": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "164": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "165": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "165A": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "165B": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "165D": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "166": {
+      "origin": 1274,
+      "destination": 1450
+    },
+    "167": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "168": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "170": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "170A": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "179": {
+      "origin": 1368,
+      "destination": 1493
+    },
+    "179A": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "179B": {
+      "origin": 1088,
+      "destination": 1743
+    },
+    "179C": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "180": {
+      "origin": 1855,
+      "destination": 1907
+    },
+    "188": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "189": {
+      "origin": 1088,
+      "destination": 1743
+    },
+    "190": {
+      "origin": 1406,
+      "destination": 1489
+    },
+    "195": {
+      "origin": 1352,
+      "destination": 1779
+    },
+    "197": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "197A": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "203": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "219": {
+      "origin": 1352,
+      "destination": 1779
+    },
+    "222": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "222A": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "226": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "226A": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "226B": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "23": {
+      "origin": 1391,
+      "destination": 1574
+    },
+    "23A": {
+      "origin": 1391,
+      "destination": 1574
+    },
+    "23B": {
+      "origin": 1391,
+      "destination": 1574
+    },
+    "24": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "242": {
+      "origin": 1548,
+      "destination": 1617
+    },
+    "242A": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "243": {
+      "origin": 274,
+      "destination": 1129
+    },
+    "243A": {
+      "origin": 274,
+      "destination": 1129
+    },
+    "245": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "246": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "255": {
+      "origin": 1855,
+      "destination": 1907
+    },
+    "27": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "27A": {
+      "origin": 249,
+      "destination": 1391
+    },
+    "3": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "34": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "35": {
+      "origin": 1450,
+      "destination": 1952
+    },
+    "37": {
+      "origin": 1368,
+      "destination": 1493
+    },
+    "37A": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "3A": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "3B": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "3C": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "3D": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "3E": {
+      "origin": 1548,
+      "destination": 1617
+    },
+    "4": {
+      "origin": 1368,
+      "destination": 1493
+    },
+    "4A": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "5": {
+      "origin": 1088,
+      "destination": 1743
+    },
+    "52": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "52A": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "52B": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "56": {
+      "origin": 1187,
+      "destination": 1797
+    },
+    "6": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "60": {
+      "origin": 1550,
+      "destination": 1783
+    },
+    "61": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "61A": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "63": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "63A": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "66B": {
+      "origin": 1855,
+      "destination": 1907
+    },
+    "66C": {
+      "origin": 1855,
+      "destination": 1907
+    },
+    "67": {
+      "origin": 1579,
+      "destination": 1626
+    },
+    "67A": {
+      "origin": 114,
+      "destination": 1296
+    },
+    "68": {
+      "origin": 1368,
+      "destination": 1493
+    },
+    "68A": {
+      "origin": 1493,
+      "destination": 1812
+    },
+    "69": {
+      "origin": 1527,
+      "destination": 1564
+    },
+    "6A": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "6B": {
+      "origin": 1287,
+      "destination": 1382
+    },
+    "7": {
+      "origin": 114,
+      "destination": 1296
+    },
+    "79": {
+      "origin": 1550,
+      "destination": 1783
+    },
+    "8": {
+      "origin": 114,
+      "destination": 1296
+    },
+    "84": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "84A": {
+      "origin": 1389,
+      "destination": 1391
+    },
+    "85": {
+      "origin": 1391,
+      "destination": 2065
+    },
+    "85A": {
+      "origin": 1391,
+      "destination": 2065
+    },
+    "86": {
+      "origin": 1391,
+      "destination": 1574
+    }
   }
-]
+}

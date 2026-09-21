@@ -290,9 +290,12 @@ const main = () => {
 
     console.log(`No manual route specified. Tracking default minimum coverage routes.`);
 
-    coverageSet.forEach(({ fromId, toId }) => {
-        const args = { FromStageId: fromId, ToStageId: toId };
-        createPollingJob(`trackRoute-${fromId}-${toId}`, argv.r, trackRoute, args);
+    coverageSet.pairs.forEach(({ origin, destination }) => {
+        const forwardArgs = { FromStageId: origin, ToStageId: destination };
+        createPollingJob(`trackRoute-${origin}-${destination}`, argv.r, trackRoute, forwardArgs);
+
+        const backwardArgs = { FromStageId: destination, ToStageId: origin };
+        createPollingJob(`trackRoute-${destination}-${origin}`, argv.r, trackRoute, backwardArgs);
     });
 }
 
