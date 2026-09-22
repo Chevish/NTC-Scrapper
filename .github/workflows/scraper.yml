@@ -2,7 +2,7 @@ name: NTC Scraper
 
 on:
   schedule:
-    - cron: '17 1,6,11 * * *'
+    - cron: '17 20,1,6 * * *'
   workflow_dispatch:
 
 jobs:
